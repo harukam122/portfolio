@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "React, HTML, CSS",
       description:
         "Designing and Developing a website to browse Spotify's newest releases",
-      image: "./project-1.gif",
+      image: "./assets/memoji.png",
       link: "https://happyquokka123.github.io/jamz-findz",
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
       subtitle: "Swift, Python",
       description:
         "A mobile app to practice speech, built for those with speech impediments",
-      image: "./project-2.gif",
+      image: "./assets/memoji.png",
       link: "",
     },
     {
@@ -20,7 +20,7 @@ export const projects = [
       subtitle: "HTML, CSS, and JS",
       description:
         "Responsive redesign of a local bagel restaurant's website. Built with HTML, CSS, and JavaScript.",
-      image: "./assets/project-4.gif",
+      image: "./assets/redesign.gif",
       link: "https://harukam122.github.io/bagel-gourmet-redesign/",
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
       subtitle: "UX Research",
       description:
         "UX research project on the users of Coca Cola drink dispenser at Brown",
-      image: "./project-3.gif",
+      image: "./assets/memoji.png",
       link: "https://happyquokka123.github.io/cs1300-personas/",
     },
   ];

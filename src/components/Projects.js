@@ -9,12 +9,12 @@ export default function Projects() {
           {projects.map((project) => (
             <a
               href={project.link}
-              key={project.image}
+              key={project.title}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="project-img"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-cover object-center hover:blur-md"
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full opacity-0 hover:opacity-100">
