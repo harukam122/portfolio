@@ -1,17 +1,21 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import About from './components/About';
-import Projects from './components/Projects';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import NoPage from "./pages/NoPage";
 
 function App() {
   return (
-    <div className="App bg-white min-h-screen">
-    <main className="text-gray-400 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-    </main>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
