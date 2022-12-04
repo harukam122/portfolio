@@ -11,14 +11,14 @@ export default function Projects() {
             <Link
               to={project.link}
               key={project.title}
-              className="sm:w-1/2 w-9/12 sm:p-8 p-6">
+              className="sm:w-1/2 w-9/12 sm:p-8 p-6 hover:duration-300 hover:scale-110">
                 <div className="p-3 sm:h-96 flex relative rounded-2xl drop-shadow-lg bg-gradient-to-r from-blue-200 to-pink-100 opacity-80">
                     <img
                     alt="project-img"
                     className="p-10 absolute inset-0 w-full h-full object-scale-down object-center"
                     src={require("../assets/" + project.image)}
                     />
-                    <div className="px-8 py-10 relative z-10 w-full rounded-2xl bg-white opacity-0 hover:opacity-95">
+                    <div className="px-8 py-10 relative z-10 w-full rounded-2xl bg-white opacity-0 hover:opacity-95 hover:duration-500">
                         <h1 className="text-3xl font-medium mb-3">
                             {project.title}
                         </h1>

@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "React, HTML, CSS",
       description:
         "Designing and Developing a website to browse Spotify's newest releases",
-      image: "jamz-mockup.png",
+      image: "jamz/jamz-mockup.png",
       link: "https://happyquokka123.github.io/jamz-findz",
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
       subtitle: "Swift, Python",
       description:
         "A mobile app to practice speech, built for those with speech impediments.",
-      image: "speech-me-mockup.png",
+      image: "speech-me/speech-me-mockup.png",
       link: "",
     },
     {
@@ -20,15 +20,15 @@ export const projects = [
       subtitle: "HTML, CSS, and JS",
       description:
         "Responsive redesign of a local bagel restaurant's website. Built with HTML, CSS, and JavaScript.",
-      image: "redesign-mockup.png",
+      image: "redesign/redesign-mockup.png",
       link: "/redesign",
     },
     {
-        title: "Iterative Design for Hello",
+        title: "Hello",
         subtitle: "Figma",
         description:
           "Iterative design project for Hello, a startup search engine for develoopers.",
-        image: "hello-mockup.png",
+        image: "hello/hello-mockup.png",
         link: "",
     },
     {
@@ -36,7 +36,7 @@ export const projects = [
       subtitle: "UX Research",
       description:
         "UX research project on the users of Coca Cola drink dispenser at Brown",
-      image: "memoji.png",
+      image: "personas/personas.png",
       link: "https://happyquokka123.github.io/cs1300-personas/",
     },
   ];
