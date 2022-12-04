@@ -2,8 +2,9 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import NoPage from "./pages/NoPage";
+import Redesign from "./pages/Redesign";
+// import About from "./pages/About";
+// import NoPage from "./pages/NoPage";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path="redesign" element={<Redesign />} />
+          {/* <Route path="about" element={<About />} /> */}
+          {/* <Route path="*" element={<NoPage />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>
