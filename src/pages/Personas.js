@@ -22,12 +22,12 @@ function Personas() {
                 <img
                     alt="project-img"
                     className="p-7 inset-0 w-full h-full object-scale-down object-center"
-                    src={require("../assets/redesign/redesign-mockup.png")}
+                    src={require("../assets/personas/personas.png")}
                     />
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
                 <div className="container mb-16">
-                    <h1 className="text-gray-600 text-2xl md:text-4xl font-semibold">Responsive Redesign</h1>
+                    <h1 className="text-gray-600 text-2xl md:text-4xl font-semibold">Personas & Storyboard</h1>
                 </div>
 
                 <div className="container">
@@ -44,24 +44,10 @@ function Personas() {
                 <hr class="hr"/>
 
                 <div className="container">
-                    <h2 className="section-title">Interface: Coca Cola Drink Dispenser</h2>
-                    <br/>
-                    <img id="webpage-img" className="mb-5 mx-4 max-h-[50vh]" src={require("../assets/personas/interface.png")} alt="drink dispenser img"/>
-                    <div className="d-inline-block mx-5 mb-8">
-                        <h4 className="subtitle">Key Components</h4>
-                        <ul className='list'>
-                            <li>
-                                touch panel
-                                <ul className='list'>
-                                    <li><b>drink options:</b> allows the user to tap and select various flavors for each option</li>
-                                    <li><b>category filter buttons:</b> allows the user to filter via low/no calorie, caffeine free, etc.</li>
-                                    <li><b>exclusive flavors button:</b> displays and allows the user to select exclusive flavors not found elsewhere on the interface</li>
-                                    <li><b>QR code:</b> the user can scan to pour a drink contact-free</li>
-                                </ul>
-                            </li>
-                            <li><b>ice dispenser:</b> the user can dispense ice by pressing on the metal bar with a cup</li>
-                            <li><b>drink dispenser:</b> the user can dispense the selected drink by pressing on the metal part with a cup</li>
-                        </ul>
+                    <h2 className="section-title">Interface Sketch &#127800;</h2>
+                    <h4 className="subtitle">Coca Cola Drink Dispenser</h4>
+                    <div className='flex justify-center'>
+                        <img id="webpage-img" className="mb-5 mx-4 max-h-[50vh]" src={require("../assets/personas/interface.png")} alt="drink dispenser img"/>
                     </div>
                 </div>
 
@@ -72,7 +58,7 @@ function Personas() {
                     <br/>
                     <div className="d-inline-block mx-5">
                         <h4>&#128077; Responsiveness</h4>
-                        <img id="webpage-img" className="items-center col-7 m-4" src={require("../assets/redesign/bgc-resp.gif")} alt="bagel gourmet café responsiveness gif"/>
+                        {/* <img id="webpage-img" className="items-center col-7 m-4" src={require("../assets/redesign/bgc-resp.gif")} alt="bagel gourmet café responsiveness gif"/> */}
                         <ul className="list">
                             <li>When the screen shrinks, the page simply gets cut off horizontally, so you have to manually scroll to the end. On smaller devices, the page display simply shrinks, making the lettering too small to read</li>
                         </ul>
@@ -132,30 +118,6 @@ function Personas() {
                             <li>accessibility issues––in particular the lack of alt tags & hierarchy, small text, etc.</li>
                         </ul>
                     </div>
-                    <br/>
-                    <Swiper
-                        // install Swiper modules
-                        modules={[Navigation, Pagination, A11y, Autoplay]}
-                        spaceBetween={50}
-                        autoplay={{
-                            delay: 3000,
-                            disableOnInteraction: false,
-                        }}
-                        navigation={true}
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        className="w-full h-full">
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/lofi-laptop.png")} alt="laptop lofi prototype"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/lofi-ipad.png")} alt="ipad lofi prototype"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/lofi-iphone.png")} alt="iphone lofi prototype"/>
-                        </SwiperSlide>
-                    </Swiper>
                 </div>
 
                 <hr class="hr"/>
@@ -167,30 +129,6 @@ function Personas() {
                     <br/>
                     <h4 className="subtitle mt-3">Style Guide</h4>
                     <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../assets/redesign/style-guide.png")} alt="ui style guide"/>
-                    <br/>
-                    <h4 className="subtitle mt-3">Prototypes</h4>
-                    <Swiper
-                        // install Swiper modules
-                        modules={[Navigation, Pagination, A11y, Autoplay]}
-                        spaceBetween={50}
-                        autoplay={{
-                            delay: 3000,
-                            disableOnInteraction: false,
-                        }}
-                        navigation={true}
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        className="w-full h-full">
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-laptop.png")} alt="laptop hifi prototype"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-ipad.png")} alt="ipad hifi prototype"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-iphone.png")} alt="iphone hifi prototype"/>
-                        </SwiperSlide>
-                    </Swiper>
                 </div>
 
                 <hr class="hr"/>

@@ -148,7 +148,9 @@ function Redesign() {
                     <br/>
                     <h4 className="blurb">Next, I moved onto my hi-fi prototypes! <br/> Below are my UI style guide and my hi-fi for laptop, iPad, and iPhone.</h4>
                     <h4 className="subtitle">Style Guide</h4>
-                    <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../assets/redesign/style-guide.png")} alt="ui style guide"/>
+                    <div className='flex justify-center'>
+                        <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../assets/redesign/style-guide.png")} alt="ui style guide"/>
+                    </div>
                     <h4 className="subtitle">Prototypes</h4>
                     <Swiper
                         // install Swiper modules

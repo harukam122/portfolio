@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://harukam122.github.io/portfolio/",
+  "homepage": "",
   "private": false,
   "dependencies": {
     "@heroicons/react": "^2.0.13",
