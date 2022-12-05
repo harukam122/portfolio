@@ -44,11 +44,9 @@ function Redesign() {
                 <div className="container">
                     <h2 className="section-title">Web Page &#128187;</h2>
                     <br/>
-                    <img id="webpage-img" className="mb-5 col-7 mx-4" src={require("../assets/redesign/bgc-website.gif")} alt="bagel gourmet café menu gif"/>
+                    <img id="webpage-img" className="mb-5 mx-4" src={require("../assets/redesign/bgc-website.gif")} alt="bagel gourmet café menu gif"/>
                     <div className="d-inline-block mx-5 mb-8">
-                        <br/>
                         <h4 className="subtitle">&#129300; Why?</h4>
-                        <br/>
                         <p>I chose Bagel Gourmet Café's website and its Menu page to redesign, because the design is barely responsive 
                             for smaller screen sizes, and defies much of a user’s mental model when they navigate the website. 
                             It is also far from being accessible and currently unable to adapt to the needs of various users.</p>
@@ -65,22 +63,18 @@ function Redesign() {
                     <br/>
                     <div className="d-inline-block mx-5">
                         <h4>&#128077; Responsiveness</h4>
-                        <img id="webpage-img" className="items-center col-7 m-4" src={require("../assets/redesign/bgc-resp.gif")} alt="bagel gourmet café responsiveness gif"/>
+                        <img id="webpage-img" className="items-center m-4" src={require("../assets/redesign/bgc-resp.gif")} alt="bagel gourmet café responsiveness gif"/>
                         <ul className="list">
                             <li>When the screen shrinks, the page simply gets cut off horizontally, so you have to manually scroll to the end. On smaller devices, the page display simply shrinks, making the lettering too small to read</li>
                         </ul>
-                        <br/>
-                        <h4 className="subtitle mt-3">&#129504; Conceptual vs Mental Model</h4>
-                        <br/>
+                        <h4 className="subtitle">&#129504; Conceptual vs Mental Model</h4>
                         <ul className="list">
                             <li>Some style choices like underlining make certain texts seem like links while they aren’t</li>
                             <li>Navigation buttons change location based on the page a user is on. The user's mental model will likely expect it to stay in one location.</li>
                             <li>Clicking on the logo does not take the user back to home page, which is now a part of most mental models of modern websites</li>
 
                         </ul>
-                        <br/>
-                        <h4 className="subtitle mt-3">&#127912; Visual Design & Usability</h4>
-                        <br/>
+                        <h4 className="subtitle">&#127912; Visual Design & Usability</h4>
                         <ul className="list">
                             <li>Bottom buttons blend in with the background, and so does the link randomly placed at the top left corner</li>
                             <li>Layout of prices are offset with varying styles––some bolded, some not &#10145;&#65039; very hard to read or compare prices</li>
@@ -89,9 +83,7 @@ function Redesign() {
                             <li>Despite all the available space on the right, all contents are shifted to the left with very tight columns and small text. The margins are also missing in some text displays.</li>
                             <li>The color scheme in some places offers little contrast, making elements like the links at the bottom very difficult to read</li>
                         </ul>
-                        <br/>
-                        <h4 className="subtitle mt-3">&#128155; Accessibility</h4>
-                        <br/>
+                        <h4 className="subtitle">&#128155; Accessibility</h4>
                         <ul className="list">
                             <li>There is no alt text for the images, so screen readers cannot read them</li>
                             <li>Only uses h4 and h5 elements, and no h1 is found &#10145;&#65039; not enough hierarchy</li>
@@ -114,10 +106,8 @@ function Redesign() {
                     <h2 className="section-title">Lo-Fi Prototypes &#128221;</h2>
                     <br/>
                     <h4 className="blurb">First, I created three wireframes. <br/> Below are my lo-fi for laptop, iPad, and iPhone, created using Balsamiq.</h4>
-                    <br/>
-                    <div className="d-inline-block text-start mx-5 mb-5">
-                        <h4 className="subtitle mt-3">&#128161; Main Focus</h4>
-                        <br/>
+                    <div className="d-inline-block text-start mx-5">
+                        <h4 className="subtitle">&#128161; Main Focus</h4>
                         <ul className='list'>
                             <li>poor readability due to confusing fonts, font styles, and small text size</li>
                             <li>poor usability due to its menu layout</li>
@@ -157,11 +147,9 @@ function Redesign() {
                     <h2 className="section-title">Hi-Fi Prototypes &#10024;</h2>
                     <br/>
                     <h4 className="blurb">Next, I moved onto my hi-fi prototypes! <br/> Below are my UI style guide and my hi-fi for laptop, iPad, and iPhone.</h4>
-                    <br/>
-                    <h4 className="subtitle mt-3">Style Guide</h4>
+                    <h4 className="subtitle">Style Guide</h4>
                     <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../assets/redesign/style-guide.png")} alt="ui style guide"/>
-                    <br/>
-                    <h4 className="subtitle mt-3">Prototypes</h4>
+                    <h4 className="subtitle">Prototypes</h4>
                     <Swiper
                         // install Swiper modules
                         modules={[Navigation, Pagination, A11y, Autoplay]}
@@ -192,7 +180,7 @@ function Redesign() {
                     <h2 className="section-title">Final Product &#128173;</h2>
                     <br/>
                     <div>
-                        <img className="mb-5 col-7 mx-4" src={require("../assets/redesign/final-product.gif")} alt="final redesigned website gif"/>
+                        <img className="mb-5 mx-4" src={require("../assets/redesign/final-product.gif")} alt="final redesigned website gif"/>
                     </div>
                     <div className="flex justify-center">
                         <a className="btn w-52 mt-10" href="https://happyquokka123.github.io/bagel-gourmet-redesign/" target="_blank">Take Me to the New & Improved Page! &#10145;&#65039;</a>

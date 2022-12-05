@@ -37,6 +37,6 @@ export const projects = [
       description:
         "UX research project on the users of Coca Cola drink dispenser at Brown",
       image: "personas/personas.png",
-      link: "https://happyquokka123.github.io/cs1300-personas/",
+      link: "/personas",
     },
   ];
