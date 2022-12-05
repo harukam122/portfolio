@@ -5,7 +5,7 @@ export const projects = [
       description:
         "Designing and Developing a website to browse Spotify's newest releases",
       image: "jamz/jamz-mockup.png",
-      link: "https://happyquokka123.github.io/jamz-findz",
+      link: "/jamz-findz",
     },
     {
       title: "SpeechMe",

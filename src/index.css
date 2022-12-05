@@ -4,6 +4,21 @@
 
 @layer components {
   .section-title {
-    @apply text-slate-600 mb-4 text-xl md:text-3xl font-medium;
+    @apply text-gray-600 mb-4 text-xl md:text-3xl font-medium;
+  }
+  .subtitle {
+    @apply text-lg md:text-2xl font-medium;
+  }
+  .btn {
+    @apply shadow-[5px_6px_#9a9a9a] bg-violet-300 text-white font-semibold text-base text-center py-2 px-4 rounded-xl hover:btn-hover ease-in;
+  }
+  .btn-hover {
+    @apply shadow-[1px_1px_#9a9a9a;] translate-y-1;
+  }
+  .hr {
+    @apply w-full h-px bg-gray-200 border-0 mt-16 mb-20;
+  }
+  .list {
+    @apply list-outside list-disc ml-6;
   }
 }

@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Redesign from "./pages/Redesign";
+import JamzFindz from "./pages/JamzFindz";
+
 // import About from "./pages/About";
 // import NoPage from "./pages/NoPage";
 
@@ -13,6 +15,8 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="redesign" element={<Redesign />} />
+          <Route path="jamz-findz" element={<JamzFindz />} />
+
           {/* <Route path="about" element={<About />} /> */}
           {/* <Route path="*" element={<NoPage />} /> */}
         </Route>

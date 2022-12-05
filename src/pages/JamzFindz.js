@@ -15,27 +15,26 @@ const scrollToTop = () => {
     });
 };
 
-function Redesign() {
+function JamzFindz() {
     return (
         <main className="flex flex-col font-body text-gray-600 text-xl">
             <div className="w-screen sm:h-[60vh] h-[50vh] bg-gradient-to-r from-blue-200 to-pink-100 opacity-80">
                 <img
                     alt="project-img"
                     className="p-7 inset-0 w-full h-full object-scale-down object-center"
-                    src={require("../assets/redesign/redesign-mockup.png")}
+                    src={require("../assets/jamz/jamz-mockup.png")}
                     />
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
                 <div className="container mb-16">
-                    <h1 className="text-gray-600 text-2xl md:text-4xl font-semibold">Responsive Redesign</h1>
+                    <h1 className="text-gray-600 text-2xl md:text-4xl font-semibold">Jamz Findz</h1>
                 </div>
 
                 <div className="container">
                     <h2 className="section-title">About &#128269;</h2>
                     <p className="d-inline-block mx-lg-5">
-                        In this project, I found a website to be improved, identified the key usability and 
-                        accessibility issues, created lo-fi and hi-fi prototypes, and developed a 
-                        responsive version of the website. Scroll down &#11015;&#65039; to read about more my process and the final product!
+                        In this project, I created a website where users can browse through the newest releases from Spotify.
+                        Scroll down &#11015;&#65039; to learn more!
                     </p>
                 </div>
 
@@ -153,41 +152,6 @@ function Redesign() {
 
                 <hr class="hr"/>
 
-                <div className="container">
-                    <h2 className="section-title">Hi-Fi Prototypes &#10024;</h2>
-                    <br/>
-                    <h4 className="blurb">Next, I moved onto my hi-fi prototypes! <br/> Below are my UI style guide and my hi-fi for laptop, iPad, and iPhone.</h4>
-                    <br/>
-                    <h4 className="subtitle mt-3">Style Guide</h4>
-                    <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../assets/redesign/style-guide.png")} alt="ui style guide"/>
-                    <br/>
-                    <h4 className="subtitle mt-3">Prototypes</h4>
-                    <Swiper
-                        // install Swiper modules
-                        modules={[Navigation, Pagination, A11y, Autoplay]}
-                        spaceBetween={50}
-                        autoplay={{
-                            delay: 3000,
-                            disableOnInteraction: false,
-                        }}
-                        navigation={true}
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        className="w-full h-full">
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-laptop.png")} alt="laptop hifi prototype"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-ipad.png")} alt="ipad hifi prototype"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-iphone.png")} alt="iphone hifi prototype"/>
-                        </SwiperSlide>
-                    </Swiper>
-                </div>
-
-                <hr class="hr"/>
-
                 <div className="container justify-center mb-36">
                     <h2 className="section-title">Final Product &#128173;</h2>
                     <br/>
@@ -207,4 +171,4 @@ function Redesign() {
     )
 }
 
-export default Redesign;
+export default JamzFindz;
