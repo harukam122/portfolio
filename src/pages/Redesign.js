@@ -60,9 +60,8 @@ function Redesign() {
 
                 <div className="container">
                     <h2 className="section-title">Key Issues &#128477;&#65039;</h2>
-                    <br/>
                     <div className="d-inline-block mx-5">
-                        <h4>&#128077; Responsiveness</h4>
+                        <h4 className="subtitle">&#128077; Responsiveness</h4>
                         <img id="webpage-img" className="items-center m-4" src={require("../assets/redesign/bgc-resp.gif")} alt="bagel gourmet café responsiveness gif"/>
                         <ul className="list">
                             <li>When the screen shrinks, the page simply gets cut off horizontally, so you have to manually scroll to the end. On smaller devices, the page display simply shrinks, making the lettering too small to read</li>

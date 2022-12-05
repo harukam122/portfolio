@@ -8,12 +8,12 @@ export const projects = [
       link: "/jamz-findz",
     },
     {
-      title: "SpeechMe",
-      subtitle: "Swift, Python",
-      description:
-        "A mobile app to practice speech, built for those with speech impediments.",
-      image: "speech-me/speech-me-mockup.png",
-      link: "",
+        title: "Personas & Storyboard",
+        subtitle: "UX Research",
+        description:
+          "UX research project on the users of Coca Cola drink dispenser at Brown",
+        image: "personas/personas.png",
+        link: "/personas",
     },
     {
       title: "Responsive Redesign",
@@ -32,11 +32,11 @@ export const projects = [
         link: "",
     },
     {
-      title: "Personas & Storyboard",
-      subtitle: "UX Research",
-      description:
-        "UX research project on the users of Coca Cola drink dispenser at Brown",
-      image: "personas/personas.png",
-      link: "/personas",
+        title: "SpeechMe",
+        subtitle: "Swift, Python",
+        description:
+          "A mobile app to practice speech, built for those with speech impediments.",
+        image: "speech-me/speech-me-mockup.png",
+        link: "",
     },
   ];
