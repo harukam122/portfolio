@@ -17,7 +17,7 @@ const scrollToTop = () => {
 
 function Redesign() {
     return (
-        <main className="flex flex-col font-body text-gray-600 text-xl">
+        <main className="flex flex-col body-text">
             <div className="w-screen sm:h-[60vh] h-[50vh] bg-gradient-to-r from-blue-200 to-pink-100 opacity-80">
                 <img
                     alt="project-img"
@@ -96,15 +96,14 @@ function Redesign() {
                             <li>Layout tables are present: can cause reading/navigation order issues</li>
                         </ul>
                     </div>
-                    <h4 className="blurb mt-5">...so, how could I make this better?</h4>
+                    <h4 className="mt-5">...so, how could I make this better?</h4>
                 </div>
 
                 <hr class="hr"/>
 
                 <div className="container">
                     <h2 className="section-title">Lo-Fi Prototypes &#128221;</h2>
-                    <br/>
-                    <h4 className="blurb">First, I created three wireframes. <br/> Below are my lo-fi for laptop, iPad, and iPhone, created using Balsamiq.</h4>
+                    <h4>First, I created three wireframes. <br/> Below are my lo-fi for laptop, iPad, and iPhone, created using Balsamiq.</h4>
                     <div className="d-inline-block text-start mx-5">
                         <h4 className="subtitle">&#128161; Main Focus</h4>
                         <ul className='list'>
@@ -144,8 +143,7 @@ function Redesign() {
 
                 <div className="container">
                     <h2 className="section-title">Hi-Fi Prototypes &#10024;</h2>
-                    <br/>
-                    <h4 className="blurb">Next, I moved onto my hi-fi prototypes! <br/> Below are my UI style guide and my hi-fi for laptop, iPad, and iPhone.</h4>
+                    <h4>Next, I moved onto my hi-fi prototypes! <br/> Below are my UI style guide and my hi-fi for laptop, iPad, and iPhone.</h4>
                     <h4 className="subtitle">Style Guide</h4>
                     <div className='flex justify-center'>
                         <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../assets/redesign/style-guide.png")} alt="ui style guide"/>

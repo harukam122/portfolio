@@ -21,4 +21,7 @@
   .list {
     @apply list-outside list-disc ml-6;
   }
+  .body-text {
+    @apply text-gray-600 text-lg font-[350] tracking-wide leading-relaxed;
+  }
 }

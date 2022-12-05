@@ -1,12 +1,3 @@
-// import Swiper core and required modules
-import { Navigation, Pagination, Autoplay, A11y } from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 const scrollToTop = () => {
     window.scrollTo({
@@ -17,7 +8,7 @@ const scrollToTop = () => {
 
 function Personas() {
     return (
-        <main className="flex flex-col font-body text-gray-600 text-xl">
+        <main className="flex flex-col body-text">
             <div className="w-screen sm:h-[60vh] h-[50vh] bg-gradient-to-r from-blue-200 to-pink-100 opacity-80">
                 <img
                     alt="project-img"
@@ -41,7 +32,7 @@ function Personas() {
                     </p>
                 </div>
 
-                <hr class="hr"/>
+                <hr className="hr"/>
 
                 <div className="container">
                     <h2 className="section-title">Interface Sketch &#127800;</h2>
@@ -51,87 +42,95 @@ function Personas() {
                     </div>
                 </div>
 
-                <hr class="hr"/>
+                <hr className="hr"/>
 
                 <div className="container">
-                    <h2 className="section-title">Key Issues &#128477;&#65039;</h2>
-                    <br/>
+                    <h2 className="section-title">Research &#128373;&#127995;</h2>
                     <div className="d-inline-block mx-5">
-                        <h4>&#128077; Responsiveness</h4>
-                        {/* <img id="webpage-img" className="items-center col-7 m-4" src={require("../assets/redesign/bgc-resp.gif")} alt="bagel gourmet café responsiveness gif"/> */}
+                        <h4 className="subtitle">&#128269; Observations</h4>
                         <ul className="list">
-                            <li>When the screen shrinks, the page simply gets cut off horizontally, so you have to manually scroll to the end. On smaller devices, the page display simply shrinks, making the lettering too small to read</li>
+                            <li>Many users seemed accustomed to the way the machine worked.</li>
+                            <li>No user was confused as to which dispenser was for ice vs. drinks.</li>
+                            <li>Only 1 user paused looking at the various flavors once selecting the drink type.</li>
+                            <li>The users who changed their minds tended to pick a drink from the center cluster of drinks.</li>
+                            <li>All users went to press the ice dispenser before looking at the digital screen.</li>
                         </ul>
-                        <br/>
-                        <h4 className="subtitle mt-3">&#129504; Conceptual vs Mental Model</h4>
-                        <br/>
+                        <h4 className="subtitle">&#129504; Questions</h4>
+                        <ol className="list list-decimal">
+                            <li>What was the feature you first noticed?</li>
+                            <li>Did you already have a drink in mind coming in?</li>
+                            <li>If so, did the design/placement of the drink buttons change your mind at all?</li>
+                            <li>Was the flow clear? In other words, was what to do next obvious?</li>
+                            <li>Was there anything surprising or unexpected about the interface?</li>
+                            <li>Did you notice the buttons on the bottom or the exclusive flavor options?</li>
+                        </ol>
+                        <h4 className="subtitle">&#128172; Responses</h4>
                         <ul className="list">
-                            <li>Some style choices like underlining make certain texts seem like links while they aren’t</li>
-                            <li>Navigation buttons change location based on the page a user is on. The user's mental model will likely expect it to stay in one location.</li>
-                            <li>Clicking on the logo does not take the user back to home page, which is now a part of most mental models of modern websites</li>
-
-                        </ul>
-                        <br/>
-                        <h4 className="subtitle mt-3">&#127912; Visual Design & Usability</h4>
-                        <br/>
-                        <ul className="list">
-                            <li>Bottom buttons blend in with the background, and so does the link randomly placed at the top left corner</li>
-                            <li>Layout of prices are offset with varying styles––some bolded, some not &#10145;&#65039; very hard to read or compare prices</li>
-                            <li>Hard to tell which options belong to what menu item, since the only distinctions are underlined vs. non-underlined (sometimes italics and/or bolded) 😵‍💫</li>
-                            <li>The difference in font styles––sometimes serif, other times sans serif––of the same information type (i.e. availanble flavors/toppings) may leave the user confused what the difference could be</li>
-                            <li>Despite all the available space on the right, all contents are shifted to the left with very tight columns and small text. The margins are also missing in some text displays.</li>
-                            <li>The color scheme in some places offers little contrast, making elements like the links at the bottom very difficult to read</li>
-                        </ul>
-                        <br/>
-                        <h4 className="subtitle mt-3">&#128155; Accessibility</h4>
-                        <br/>
-                        <ul className="list">
-                            <li>There is no alt text for the images, so screen readers cannot read them</li>
-                            <li>Only uses h4 and h5 elements, and no h1 is found &#10145;&#65039; not enough hierarchy</li>
-                            <li>Language is never identified</li>
-                            <li>Poor color contrast</li>
-                            <li>There are empty headings, which can confuse screen readers</li>
-                            <li>Missing or uninformative page title</li>
-                            <li>No page regions are identified</li>
-                            <li>Non-link texts are underlined</li>
-                            <li>Texts overall are very small</li>
-                            <li>Layout tables are present: can cause reading/navigation order issues</li>
-                        </ul>
-                    </div>
-                    <h4 className="blurb mt-5">...so, how could I make this better?</h4>
-                </div>
-
-                <hr class="hr"/>
-
-                <div className="container">
-                    <h2 className="section-title">Lo-Fi Prototypes &#128221;</h2>
-                    <br/>
-                    <h4 className="blurb">First, I created three wireframes. <br/> Below are my lo-fi for laptop, iPad, and iPhone, created using Balsamiq.</h4>
-                    <br/>
-                    <div className="d-inline-block text-start mx-5 mb-5">
-                        <h4 className="subtitle mt-3">&#128161; Main Focus</h4>
-                        <br/>
-                        <ul className='list'>
-                            <li>poor readability due to confusing fonts, font styles, and small text size</li>
-                            <li>poor usability due to its menu layout</li>
-                            <li>lack of responsiveness, especially when resizing a window</li>
-                            <li>accessibility issues––in particular the lack of alt tags & hierarchy, small text, etc.</li>
+                            <li>3 out of the 4 users interviewed answered that the first feature they noticed was the collection of many options and colors on the screen.</li>
+                            <li>Some already had a drink in mind, but others changed their mind after looking at the options. Those who changed their minds were not exactly sure whether their decisions were influenced by the placement/design of the drink options.</li>
+                            <li>All users found the flow and the expected actions to take very clear and unconfusing. They are also accustomed users of the machine, so not much thinking was required.</li>
+                            <li>No surprising elements were found while they were interacting with the interface, but later on, users were surprised to find the filters and the Exclusive Flavors button once looking at the interface closely.</li>
+                            <li>3 out of the 4 users never noticed the filters. Most users had also dismissed the Exclusive Flavors button to be an advertisement, as it seemed like a static element similar to the QR code.</li>
                         </ul>
                     </div>
                 </div>
 
-                <hr class="hr"/>
+                <hr className="hr"/>
 
                 <div className="container">
-                    <h2 className="section-title">Hi-Fi Prototypes &#10024;</h2>
-                    <br/>
-                    <h4 className="blurb">Next, I moved onto my hi-fi prototypes! <br/> Below are my UI style guide and my hi-fi for laptop, iPad, and iPhone.</h4>
-                    <br/>
-                    <h4 className="subtitle mt-3">Style Guide</h4>
-                    <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../assets/redesign/style-guide.png")} alt="ui style guide"/>
+                    <h2 className="section-title">Personas &#128221;</h2>
+                    <h4 className="mb-10">First, I created three wireframes. <br/> Below are my lo-fi for laptop, iPad, and iPhone, created using Balsamiq.</h4>
+                    <div className="flex flex-row flex-wrap gap-y-20 justify-between">
+                        <div className="md:w-[45%] w-full">
+                            <div className="flex justify-center">
+                                <img className="rounded-full w-48 h-48 mb-3 border-[6px] border-sky-100" src={require("../assets/personas/user-1.jpg")} alt="persona icon"/>
+                            </div>                            
+                            <h5 className="subtitle">Sofia Randi</h5>
+                            <div className="inline-block">
+                                <p>
+                                    <ul className="list">
+                                        <li>is a Junior at Brown studying computer science</li>
+                                        <li>is often busy and doesn't spend long periods of time on meals</li>
+                                        <li>likes to be healthy and generally avoids sugary drinks</li>
+                                        <li>generally likes having a routine lifestyle and does not like to be out of her comfort zone</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <h5 className="subtitle">Sofia's Empathy Map</h5>
+                            <img className="empathy-map" src={require("../assets/personas/empathy-map-1.jpg")} alt="empathy map (persona 1)"/>
+                        </div>
+                        <div className="md:w-[45%] w-full">
+                            <div className="flex justify-center">
+                                <img className="rounded-full w-48 h-48 mb-3 border-[6px] border-sky-100" src={require("../assets/personas/user-2.jpg")} alt="persona icon"/>
+                            </div>
+                            <h5 className="subtitle">Parker Koche</h5>
+                            <div className="inline-block">
+                                <p>
+                                    <ul className="list">
+                                        <li>is a Freshman at Brown who is undecided and loves to explore</li>
+                                        <li>loves exploring courses in different departments, restaurants in Providence, and new drinks</li>
+                                        <li>likes to take time at their meals and enjoy conversations with friends</li>
+                                        <li>is usually fickle, and their mind is easily changed</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <h5 className="subtitle">Parker's Empathy Map</h5>
+                            <img className="empathy-map" src={require("../assets/personas/empathy-map-2.jpg")} alt="empathy map (persona 2)"/>
+                        </div>
+                    </div>
                 </div>
 
-                <hr class="hr"/>
+                <hr className="hr"/>
+
+                <div className="container">
+                    <h2 className="section-title">Storyboard &#128173;</h2>
+                    <h4>Lastly, below is a storyboard portraying what Parker's usage of the Coca Cola drink dispenser might look like.</h4>
+                    <div className='flex justify-center'>
+                        <img className="w-full" src={require("../assets/personas/storyboard.png")} alt="storyboard drawing"/>
+                    </div>
+                </div>
+
+                <hr className="hr"/>
 
                 <div className="container justify-center mb-36">
                     <h2 className="section-title">Takeaways &#128477;</h2>
