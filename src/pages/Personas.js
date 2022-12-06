@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 
-function Personas(props) {
+function Personas() {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -131,7 +131,7 @@ function Personas(props) {
 
                 <hr className="hr"/>
 
-                <div className="container justify-center mb-36">
+                <div className="container justify-center">
                     <h2 className="section-title">Takeaways &#128477;</h2>
                     <br/>
                     <p>
@@ -147,10 +147,6 @@ function Personas(props) {
                             <li>Many users are repeat users, and are by now accustomed to the flow of the interface. Regardless, all interviewed users found the interface to be intuitive.</li>
                         </ul>
                     </p>
-                </div>
-
-                <div className="flex justify-center text-base">
-                    <button onClick={props.scrollToTop}>back to the top &#128070;</button>
                 </div>
             </div>
         </main>

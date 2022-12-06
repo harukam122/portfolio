@@ -7,6 +7,7 @@ import Personas from "./pages/Personas";
 import Hello from "./pages/Hello";
 import NoPage from "./pages/NoPage";
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="/hello" element={<Hello scrollToTop={scrollToTop} />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }

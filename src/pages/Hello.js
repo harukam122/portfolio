@@ -9,7 +9,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-function Hello(props) {
+function Hello() {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -231,15 +231,11 @@ function Hello(props) {
 
                 <hr class="hr"/>
 
-                <div className="container mb-36">
+                <div className="container">
                     <h2 className="section-title">Future Considerations &#129300;</h2>
                     <p className='mb-5'>
                         Based on this feedback, we would definitely give less space to the web results. It was mentioned multiple times that the main draw of the platform is the hello answers, so the web answers can be deprioritized since users can just go to Google if they wanted that.
                     </p>
-                </div>
-
-                <div className="flex justify-center text-base">
-                    <button onClick={props.scrollToTop}>back to the top &#128070;</button>
                 </div>
             </div>
         </main>

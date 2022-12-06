@@ -9,7 +9,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-function Redesign(props) {
+function Redesign() {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -174,7 +174,7 @@ function Redesign(props) {
 
                 <hr class="hr"/>
 
-                <div className="container justify-center mb-36">
+                <div className="container justify-center">
                     <h2 className="section-title">Final Product &#128173;</h2>
                     <br/>
                     <div>
@@ -183,10 +183,6 @@ function Redesign(props) {
                     <div className="flex justify-center">
                         <a className="btn w-52 mt-10" href="https://happyquokka123.github.io/bagel-gourmet-redesign/" target="_blank">Take Me to the New & Improved Page! &#10145;&#65039;</a>
                     </div>
-                </div>
-
-                <div className="flex justify-center text-base">
-                    <button onClick={props.scrollToTop}>back to the top &#128070;</button>
                 </div>
             </div>
         </main>
