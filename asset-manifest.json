@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.baa00944.css",
-    "main.js": "/static/js/main.bbdbfed6.js",
+    "main.js": "/static/js/main.c276d151.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/bgc-website.gif": "/static/media/bgc-website.e0289b3e3c82d005e81c.gif",
     "static/media/bgc-resp.gif": "/static/media/bgc-resp.a68a5bf2d83784d7c569.gif",
@@ -45,11 +45,11 @@
     "static/media/summertime.png": "/static/media/summertime.659e3c0f5138b5f7e65d.png",
     "index.html": "/index.html",
     "main.baa00944.css.map": "/static/css/main.baa00944.css.map",
-    "main.bbdbfed6.js.map": "/static/js/main.bbdbfed6.js.map",
+    "main.c276d151.js.map": "/static/js/main.c276d151.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.baa00944.css",
-    "static/js/main.bbdbfed6.js"
+    "static/js/main.c276d151.js"
   ]
 }
