@@ -80,7 +80,7 @@ function Hello() {
                             centeredSlides={true}
                             scrollbar={{ draggable: true }}
                             onSwiper={(swiper) => console.log(swiper)}
-                            className="w-full h-full flex drop-shadow-lg">
+                            className="w-5/6 flex drop-shadow-lg">
                             <SwiperSlide>
                                 <img className="border" src={require("../assets/hello/wireframes/wireframe-1.png")} alt="wireframe 1"/>
                             </SwiperSlide>
@@ -133,7 +133,7 @@ function Hello() {
                             centeredSlides={true}
                             scrollbar={{ draggable: true }}
                             onSwiper={(swiper) => console.log(swiper)}
-                            className="w-full h-full flex drop-shadow-lg">
+                            className="w-5/6 flex drop-shadow-lg">
                             <SwiperSlide>
                                 <img className="border" src={require("../assets/hello/mockups-before/before-1.png")} alt="mockup 1"/>
                             </SwiperSlide>
@@ -176,7 +176,7 @@ function Hello() {
                         <p className='mb-10'>
                             We made the following changes to our initial high-fi mockup; below, you can find the updated version (go into full screen for best experience).
                         </p>
-                        <iframe className="w-[800px] h-[450px]" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlRpub3LGDvUZkBJ05dRESl%2FHello%3Fpage-id%3D0%253A1%26node-id%3D127%253A102%26viewport%3D474%252C312%252C0.1%26scaling%3Dscale-down%26starting-point-node-id%3D127%253A102" allowFullScreen></iframe>
+                        <iframe className="w-full md:h-[70vh] sm:h-[60vh] h-[50vh]" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlRpub3LGDvUZkBJ05dRESl%2FHello%3Fpage-id%3D0%253A1%26node-id%3D127%253A102%26viewport%3D474%252C312%252C0.1%26scaling%3Dscale-down%26starting-point-node-id%3D127%253A102" allowFullScreen></iframe>
                         <ul className="list">
                             <li>Added a logo, which acts like a “home” button</li>
                             <li>Added a heading to clear up what the source links are</li>
