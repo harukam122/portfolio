@@ -44,16 +44,16 @@ function JamzFindz() {
 
                 <div className="container">
                     <h2 className="section-title">Usability Principles Considered &#128477;&#65039;</h2>
-                    <div className="d-inline-block mx-5">
-                        <h4 className="subtitle">&#128077; Hierarchy</h4>
+                    <div className="mx-5">
+                        <h4 className="subtitle">&#128081; Hierarchy</h4>
                         <p>
                             The most apparent usability principle I used was hierarchy. The difference in font weights and sizes in both the Album cards and the sidebar are both meant to create a hierarchy that is intuitive and readable for the user. album vs. single info is also contained in a rounded box for quick access to the particular information.
                         </p>
-                        <h4 className="subtitle">&#129504; User Control</h4>
+                        <h4 className="subtitle">&#128170;&#127995; User Control</h4>
                         <p>
                             The user is able to reset all selected filters via a single click, giving the user more control/freedom.
                         </p>
-                        <h4 className="subtitle">&#127912; Visibility of Status</h4>
+                        <h4 className="subtitle">&#128065; Visibility of Status</h4>
                         <p>
                             By making the sorting/filtering options and the favorites icon one of checkboxes, radio buttons, or changing icons, I made sure that the status of the page was clear to the user. If these were simply buttons, the user will have a difficult time understanding the page state.
                         </p>
@@ -75,23 +75,24 @@ function JamzFindz() {
 
                 <div className="container">
                     <h2 className="section-title">Flow of Data &#10024;</h2>
-                    <h4>Next, I moved onto my hi-fi prototypes! <br/> Below are my UI style guide and my hi-fi for laptop, iPad, and iPhone.</h4>
-                    <h4 className="subtitle">Style Guide</h4>
-                    <div className='flex justify-center'>
-                        <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../assets/redesign/style-guide.png")} alt="ui style guide"/>
-                    </div>
+                    <h4>I pass down the following data through components:</h4>
+                    <ol className='list list-decimal'>
+                        <li><b>filters:</b> A dictionary of all the filters and their respective states. This is passed down through the Filters component and used to update the filters' states when a user checks or unchecks a filter.</li>
+                        <li><b>favItems:</b> A list of favorited albums. This is passed through the Album component and used to add an album to the list when favorited by user.</li>
+                        <li><b>totalTracks:</b> The total number of tracks in all favorited albums. This is passed through both the Album and Filters components. The Album component uses it to add/subtract newly favorited or un-favorited album's track number to/from the total. The Filters component uses this data to display under the Favorites filter option.</li>
+                        <li><b>musicData/setMusicData:</b> The items within the original data pulled from Spotify (JSON of albums and their information). This is passed through the Filters component and used to sort the data when user selects a sorting option.</li>
+                    </ol>
                 </div>
 
                 <hr class="hr"/>
 
                 <div className="container justify-center">
                     <h2 className="section-title">Final Product &#128173;</h2>
-                    <br/>
-                    <div>
-                        <img className="mb-5 mx-4" src={require("../assets/redesign/final-product.gif")} alt="final redesigned website gif"/>
+                    <div className="flex justify-center">
+                        <img className="mb-5 mx-4" src={require("../assets/jamz/jamz-final.gif")} alt="final website gif"/>
                     </div>
                     <div className="flex justify-center">
-                        <a className="btn w-52 mt-10" href="https://happyquokka123.github.io/bagel-gourmet-redesign/" target="_blank">Take Me to the New & Improved Page! &#10145;&#65039;</a>
+                        <a className="btn w-52 mt-10" href="https://happyquokka123.github.io/jamz-findz/" target="_blank">Take Me to the Page! &#10145;&#65039;</a>
                     </div>
                 </div>
             </div>

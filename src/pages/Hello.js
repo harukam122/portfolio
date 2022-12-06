@@ -45,7 +45,7 @@ function Hello() {
 
                 <div className="container">
                     <h2 className="section-title">Sketching and Wireframing &#9999;</h2>
-                    <div className="d-inline-block mx-5 mb-8">
+                    <div className="mx-5 mb-8">
                         <h4 className="subtitle">&#129300; Predesign Thinking</h4>
                         <p>
                             Hello is a search engine that is optimized for developers and technical questions. 

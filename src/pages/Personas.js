@@ -133,7 +133,6 @@ function Personas() {
 
                 <div className="container justify-center">
                     <h2 className="section-title">Takeaways &#128477;</h2>
-                    <br/>
                     <p>
                         Some of the key takeaways and findings of this assignment were...
                         <ul className='list'>
