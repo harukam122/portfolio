@@ -22,12 +22,12 @@ function Hello() {
                 <img
                     alt="project-img"
                     className="p-7 inset-0 w-full h-full object-scale-down object-center"
-                    src={require("../assets/redesign/redesign-mockup.png")}
+                    src={require("../assets/hello/hello-mockup.png")}
                     />
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
                 <div className="container mb-16">
-                    <h1 className="text-gray-600 text-2xl md:text-4xl font-semibold">Hello</h1>
+                    <h1 className="text-gray-600 text-2xl md:text-4xl font-semibold">Iterative Design for Hello</h1>
                 </div>
 
                 <div className="container">
@@ -35,10 +35,10 @@ function Hello() {
                     <p className="mb-16">
                         Iterative Design is a project we have done as a part of our CSCI1300: User Interface and User Experiences course at Brown University. 
                         Our task was to design an interactive interface for an emerging startup, going through the full process of mocking up a solution to the startup's concept. 
-                        We chose hello as our startup.
+                        We chose Hello as our startup.
                     </p>
                     <div className="flex justify-center">
-                        <a href="https://www.ycombinator.com/companies/hello" target="_blank" className="btn">Learn about hello &#10145;&#65039;</a>
+                        <a href="https://www.ycombinator.com/companies/hello" target="_blank" className="btn">Learn about Hello &#10145;&#65039;</a>
                     </div>
                 </div>
 
@@ -59,137 +59,184 @@ function Hello() {
                             They can use hello to receive fast answers to their technical questions. 
                             Because of the coding nature of the startup, we chose to design a desktop interface.
                         </p>
+                        <h4 className="subtitle">&#127775; Wireframes</h4>
+                        <p className='mb-10'>
+                            After the initial sketching, we came up with a new design to demonstrate our startup company's goals in the best way possible. 
+                            We wanted our design to be simple, intuitive, and easy to use. 
+                            We choose the split screen design to provide all the tools necessary for the developers. 
+                            Furthermore, we wanted a clean yet unique look, which separated our startup’s project from other search engines available. 
+                            Below is a low-fidelity wireframe of our design.
+                        </p>
+                        <Swiper
+                            // install Swiper modules
+                            modules={[Navigation, Pagination, A11y, Autoplay]}
+                            spaceBetween={50}
+                            autoplay={{
+                                delay: 3000,
+                                disableOnInteraction: false,
+                            }}
+                            navigation={true}
+                            pagination={{ clickable: true }}
+                            centeredSlides={true}
+                            scrollbar={{ draggable: true }}
+                            onSwiper={(swiper) => console.log(swiper)}
+                            className="w-full h-full flex drop-shadow-lg">
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/wireframes/wireframe-1.png")} alt="wireframe 1"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/wireframes/wireframe-2.png")} alt="wireframe 2"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/wireframes/wireframe-3.png")} alt="wireframe 3"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/wireframes/wireframe-4.png")} alt="wireframe 4"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/wireframes/wireframe-5.png")} alt="wireframe 5"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/wireframes/wireframe-6.png")} alt="wireframe 6"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/wireframes/wireframe-7.png")} alt="wireframe 7"/>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </div>
 
                 <hr class="hr"/>
 
                 <div className="container">
-                    <h2 className="section-title">Key Issues &#128477;&#65039;</h2>
-                    <div className="d-inline-block mx-5">
-                        <h4 className="subtitle">&#128077; Responsiveness</h4>
-                        <img id="webpage-img" className="items-center m-4" src={require("../assets/redesign/bgc-resp.gif")} alt="bagel gourmet café responsiveness gif"/>
-                        <ul className="list">
-                            <li>When the screen shrinks, the page simply gets cut off horizontally, so you have to manually scroll to the end. On smaller devices, the page display simply shrinks, making the lettering too small to read</li>
-                        </ul>
-                        <h4 className="subtitle">&#129504; Conceptual vs Mental Model</h4>
-                        <ul className="list">
-                            <li>Some style choices like underlining make certain texts seem like links while they aren’t</li>
-                            <li>Navigation buttons change location based on the page a user is on. The user's mental model will likely expect it to stay in one location.</li>
-                            <li>Clicking on the logo does not take the user back to home page, which is now a part of most mental models of modern websites</li>
+                    <h2 className="section-title">Mockups &#9996;&#127995;</h2>
+                    <div className="mx-5">
+                        <h4 className="subtitle">&#128187; Interactive Hi-Fi Mockup</h4>
+                        <p className='mb-10'>
+                            Using Figma, we created an interactive high-fidelity prototype. 
+                            While making our design, we choose a clean look with minimal distractions. 
+                            We chose our fonts to reflect the startup's technical nature, and paid special attention to text hierarchy and color scheme to make our page easy to read and navigate. 
+                            By using contrasting colors, such as black text on a blue background, we made the font more visible so that anyone could read the website. 
+                            We chose to use icons on our website to express possible actions, such as bookmarking and history, to grab the user's attention and help the users find the content they are looking for. 
+                            We made sure to use icons that the user can easily understand. We added a split screen option for users to view ‘Web Answers’ and ‘Hello Answers,’ which are generated simultaneously by hello’s AI algorithm.
+                        </p>
+                        <Swiper
+                            // install Swiper modules
+                            modules={[Navigation, Pagination, A11y, Autoplay]}
+                            spaceBetween={50}
+                            autoplay={{
+                                delay: 3000,
+                                disableOnInteraction: false,
+                            }}
+                            navigation={true}
+                            pagination={{ clickable: true }}
+                            centeredSlides={true}
+                            scrollbar={{ draggable: true }}
+                            onSwiper={(swiper) => console.log(swiper)}
+                            className="w-full h-full flex drop-shadow-lg">
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/mockups-before/before-1.png")} alt="mockup 1"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/mockups-before/before-2.png")} alt="mockup 2"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/mockups-before/before-3.png")} alt="mockup 3"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/mockups-before/before-4.png")} alt="mockup 4"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/mockups-before/before-5.png")} alt="mockup 5"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/mockups-before/before-6.png")} alt="mockup 6"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img className="border" src={require("../assets/hello/mockups-before/before-7.png")} alt="mockup 7"/>
+                            </SwiperSlide>
+                        </Swiper>
 
-                        </ul>
-                        <h4 className="subtitle">&#127912; Visual Design & Usability</h4>
+                        <h4 className="subtitle">&#128172; Crit Studio</h4>
+                        <p className='mb-5'>
+                            During Studio time, we asked for peer critiques to identify potential problems with our high-fidelity mockup. Below are some issues that were identified:
+                        </p>
                         <ul className="list">
-                            <li>Bottom buttons blend in with the background, and so does the link randomly placed at the top left corner</li>
-                            <li>Layout of prices are offset with varying styles––some bolded, some not &#10145;&#65039; very hard to read or compare prices</li>
-                            <li>Hard to tell which options belong to what menu item, since the only distinctions are underlined vs. non-underlined (sometimes italics and/or bolded) 😵‍💫</li>
-                            <li>The difference in font styles––sometimes serif, other times sans serif––of the same information type (i.e. availanble flavors/toppings) may leave the user confused what the difference could be</li>
-                            <li>Despite all the available space on the right, all contents are shifted to the left with very tight columns and small text. The margins are also missing in some text displays.</li>
-                            <li>The color scheme in some places offers little contrast, making elements like the links at the bottom very difficult to read</li>
+                            <li>What source links lead to should be more</li>
+                            <li>We have to have more consistency between different display options</li>
+                            <li>There should be a way to go back to home page</li>
+                            <li>Hello’s logo should always be on the page</li>
+                            <li>There were some problems with the text hierarchy</li>
+                            <li>There should be a way to bookmark answers</li>
+                            <li>There should be a way to see recently visited pages</li>
+                            <li>The split screen icon should be changed to be more explicit</li>
                         </ul>
-                        <h4 className="subtitle">&#128155; Accessibility</h4>
+
+                        <h4 className="subtitle">&#10024; Updated High-Fidelity Frame</h4>
+                        <p className='mb-10'>
+                            We made the following changes to our initial high-fi mockup; below, you can find the updated version (go into full screen for best experience).
+                        </p>
+                        <iframe className="w-[800px] h-[450px]" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FlRpub3LGDvUZkBJ05dRESl%2FHello%3Fpage-id%3D0%253A1%26node-id%3D127%253A102%26viewport%3D474%252C312%252C0.1%26scaling%3Dscale-down%26starting-point-node-id%3D127%253A102" allowFullScreen></iframe>
                         <ul className="list">
-                            <li>There is no alt text for the images, so screen readers cannot read them</li>
-                            <li>Only uses h4 and h5 elements, and no h1 is found &#10145;&#65039; not enough hierarchy</li>
-                            <li>Language is never identified</li>
-                            <li>Poor color contrast</li>
-                            <li>There are empty headings, which can confuse screen readers</li>
-                            <li>Missing or uninformative page title</li>
-                            <li>No page regions are identified</li>
-                            <li>Non-link texts are underlined</li>
-                            <li>Texts overall are very small</li>
-                            <li>Layout tables are present: can cause reading/navigation order issues</li>
+                            <li>Added a logo, which acts like a “home” button</li>
+                            <li>Added a heading to clear up what the source links are</li>
+                            <li>Made all “source” buttons explicit link buttons</li>
+                            <li>Fixed font hierarchy problems</li>
+                            <li>Added text to the “split screen” icon to make it clearer</li>
+                            <li>Highlighted the selected display option</li>
+                            <li>Changed the “languages” tab to be consistent on all pages</li>
+                            <li>Added a bookmark icon next to the answers + Added a bookmarks and search history icon</li>
+                            <li>Changed display from “click” to “hover” to see the list of all the programming/markup languages</li>
                         </ul>
                     </div>
-                    <h4 className="mt-5">...so, how could I make this better?</h4>
                 </div>
 
                 <hr class="hr"/>
 
                 <div className="container">
-                    <h2 className="section-title">Lo-Fi Prototypes &#128221;</h2>
-                    <h4>First, I created three wireframes. <br/> Below are my lo-fi for laptop, iPad, and iPhone, created using Balsamiq.</h4>
-                    <div className="d-inline-block text-start mx-5">
-                        <h4 className="subtitle">&#128161; Main Focus</h4>
+                    <h2 className="section-title">User Testing &#128269;</h2>
+                    <div className="mx-5">
+                        <h4 className="subtitle">&#128161; The Task</h4>
+                        <p className='mb-5'>
+                            We asked the users to imagine themselves as a computer science student and search for “how to implement Dijkstra’s algorithm” by following some task instructions which we have given. 
+                            We asked them to verbalize their thoughts throughout the testing process. We informed them that they would not be using an actual website but instead testing an interactive mockup.
+                        </p>
+                        <h4 className="subtitle">&#128129;&#127995; Testing Instructions</h4>
+                        <ol className='list list-decimal'>
+                            <li>Without leaving the homepage, what are your initial impressions of the design and the functionalities available? Be specific.</li>
+                            <li>Start your search by choosing Java as your intended language. Tell us how you selected it. Comment on the intuitivity of this step.</li>
+                            <li>Search “How to implement Dijkstra’s algorithm” by clicking the correct suggestion in the dropdown menu.</li>
+                            <li>Scroll through the pages. Comment on the dual layout of the search results. Describe in your own words how you might benefit from using this page.</li>
+                            <li>Navigate to “Web Answers.” Comment on the design of this page.</li>
+                            <li>Change your display to “Hello Answers.” Describe what you expect to find on this page. Comment both on the design and benefits of this view.</li>
+                            <li>Go to the first referenced source link.</li>
+                        </ol>
+                        <h4 className="subtitle">&#10067; Questions</h4>
                         <ul className='list'>
-                            <li>poor readability due to confusing fonts, font styles, and small text size</li>
-                            <li>poor usability due to its menu layout</li>
-                            <li>lack of responsiveness, especially when resizing a window</li>
-                            <li>accessibility issues––in particular the lack of alt tags & hierarchy, small text, etc.</li>
+                            <li>What frustrated you most about this site?</li>
+                            <li>If you had a magic wand, how would you improve this site?</li>
+                            <li>What did you like about the site?</li>
+                            <li>How likely are you to recommend this site to a friend or colleague (0 = Not at all likely, and 10 = Very likely)? Why or why not?</li>
                         </ul>
+                        <h4 className="subtitle">&#128373;&#127995; Analysis</h4>
+                        <p className='mb-5'>Overall, our User Testing results were in line with our expectations. The users didn't have difficulty in completing the tasks and found our design intuitive.</p>
+                        <p className='mb-5'><b>Task 1:</b> The users generally understood the layout and purpose of the website just from looking at the homepage. However, the first user mentioned that they would expect there to be a profile button, while the third user mentioned that the design seemed perfect for a developer.</p>
+                        <p className='mb-5'><b>Task 2:</b> Based on the feedback given, in the future we would include more available languages in the mockup to give the idea that there would be a lot to choose from. Additionally, we could include a dropdown arrow after a language is chosen from the “see more” dropdown to show that users can change languages if they make a mistake.</p>
+                        <p className='mb-5'><b>Task 3:</b> The overall consensus on searching “How to implement Dijkstra’s algorithm” was that it was very easy and intuitive. There was no confusion whatsoever associated with this task.</p>
+                        <p className='mb-5'><b>Task 4:</b> Users felt that this task was also very intuitive. However, the first user did not see the need for a web answers section and found the web answers distracting, given that they would be using Hello for quick answers. They can simply use Google if they wanted web answers, so they prefer the web answers to be on the bottom of the page. On the other hand, the second and third users thought that the split screen was effective and helpful, with the third user even noting that this page was “everything I was looking for.”</p>
+                        <p className='mb-5'><b>Task 5:</b> Users agreed that the web answers are easy to find. While the first user noted that they liked not having to go through Google, the second and third users preferred some differentiation from Google. The second and third users agreed that the whitespace on the screen can be utilized more, whether by making it full-screen or with more information on each search result.</p>
+                        <p className='mb-5'><b>Task 6:</b> User liked the ‘Hello Answers’ more than the ‘Web Answers’. One user mentioned that the found the split screen more useful after seeing both pages. The users also mentioned that the answers generated by the algorithm including the quick answer and the code snippets met their expectations. They appreciated the minimal design of ‘Hello Answers’ page as there were no distractions. One user commented that they wished to see more answers instead of just the quick answer and they suggested that there could be a ‘see all answers’ button to view all the other answers relating to that question. One user found this page great for developers.</p>
+                        <p className='mb-5'><b>Task 7:</b> All the users found going to the first referenced source link pretty intuitive and easy.</p>
                     </div>
-                    <br/>
-                    <Swiper
-                        // install Swiper modules
-                        modules={[Navigation, Pagination, A11y, Autoplay]}
-                        spaceBetween={50}
-                        autoplay={{
-                            delay: 3000,
-                            disableOnInteraction: false,
-                        }}
-                        navigation={true}
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        onSwiper={(swiper) => console.log(swiper)}
-                        className="w-full h-full">
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/lofi-laptop.png")} alt="laptop lofi prototype"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/lofi-ipad.png")} alt="ipad lofi prototype"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/lofi-iphone.png")} alt="iphone lofi prototype"/>
-                        </SwiperSlide>
-                    </Swiper>
                 </div>
 
                 <hr class="hr"/>
 
-                <div className="container">
-                    <h2 className="section-title">Hi-Fi Prototypes &#10024;</h2>
-                    <h4>Next, I moved onto my hi-fi prototypes! <br/> Below are my UI style guide and my hi-fi for laptop, iPad, and iPhone.</h4>
-                    <h4 className="subtitle">Style Guide</h4>
-                    <div className='flex justify-center'>
-                        <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../assets/redesign/style-guide.png")} alt="ui style guide"/>
-                    </div>
-                    <h4 className="subtitle">Prototypes</h4>
-                    <Swiper
-                        // install Swiper modules
-                        modules={[Navigation, Pagination, A11y, Autoplay]}
-                        spaceBetween={50}
-                        autoplay={{
-                            delay: 3000,
-                            disableOnInteraction: false,
-                        }}
-                        navigation={true}
-                        pagination={{ clickable: true }}
-                        scrollbar={{ draggable: true }}
-                        className="w-full h-full">
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-laptop.png")} alt="laptop hifi prototype"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-ipad.png")} alt="ipad hifi prototype"/>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-iphone.png")} alt="iphone hifi prototype"/>
-                        </SwiperSlide>
-                    </Swiper>
-                </div>
-
-                <hr class="hr"/>
-
-                <div className="container justify-center mb-36">
-                    <h2 className="section-title">Final Product &#128173;</h2>
-                    <br/>
-                    <div>
-                        <img className="mb-5 mx-4" src={require("../assets/redesign/final-product.gif")} alt="final redesigned website gif"/>
-                    </div>
-                    <div className="flex justify-center">
-                        <a className="btn w-52 mt-10" href="https://happyquokka123.github.io/bagel-gourmet-redesign/" target="_blank">Take Me to the New & Improved Page! &#10145;&#65039;</a>
-                    </div>
+                <div className="container mb-36">
+                    <h2 className="section-title">Future Considerations &#129300;</h2>
+                    <p className='mb-5'>
+                        Based on this feedback, we would definitely give less space to the web results. It was mentioned multiple times that the main draw of the platform is the hello answers, so the web answers can be deprioritized since users can just go to Google if they wanted that.
+                    </p>
                 </div>
 
                 <div className="flex justify-center text-base">
