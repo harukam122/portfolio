@@ -15,7 +15,7 @@ const scrollToTop = () => {
     });
 };
 
-function Redesign() {
+function Hello() {
     return (
         <main className="flex flex-col body-text">
             <div className="w-screen sm:h-[60vh] h-[50vh] bg-gradient-to-r from-blue-200 to-pink-100 opacity-80">
@@ -27,32 +27,38 @@ function Redesign() {
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
                 <div className="container mb-16">
-                    <h1 className="text-gray-600 text-2xl md:text-4xl font-semibold">Responsive Redesign</h1>
+                    <h1 className="text-gray-600 text-2xl md:text-4xl font-semibold">Hello</h1>
                 </div>
 
                 <div className="container">
                     <h2 className="section-title">About &#128269;</h2>
-                    <p>
-                        In this project, I found a website to be improved, identified the key usability and 
-                        accessibility issues, created lo-fi and hi-fi prototypes, and developed a 
-                        responsive version of the website. Scroll down &#11015;&#65039; to read about more my process and the final product!
+                    <p className="mb-16">
+                        Iterative Design is a project we have done as a part of our CSCI1300: User Interface and User Experiences course at Brown University. 
+                        Our task was to design an interactive interface for an emerging startup, going through the full process of mocking up a solution to the startup's concept. 
+                        We chose hello as our startup.
                     </p>
+                    <div className="flex justify-center">
+                        <a href="https://www.ycombinator.com/companies/hello" target="_blank" className="btn">Learn about hello &#10145;&#65039;</a>
+                    </div>
                 </div>
 
                 <hr class="hr"/>
 
                 <div className="container">
-                    <h2 className="section-title">Web Page &#128187;</h2>
-                    <br/>
-                    <img id="webpage-img" className="mb-5 mx-4" src={require("../assets/redesign/bgc-website.gif")} alt="bagel gourmet café menu gif"/>
+                    <h2 className="section-title">Sketching and Wireframing &#9999;</h2>
                     <div className="d-inline-block mx-5 mb-8">
-                        <h4 className="subtitle">&#129300; Why?</h4>
-                        <p>I chose Bagel Gourmet Café's website and its Menu page to redesign, because the design is barely responsive 
-                            for smaller screen sizes, and defies much of a user’s mental model when they navigate the website. 
-                            It is also far from being accessible and currently unable to adapt to the needs of various users.</p>
-                    </div>
-                    <div className="flex justify-center">
-                        <a href="http://bagelgourmetcafe.com/menu.html" target="_blank" className="btn">Take Me to the Page &#10145;&#65039;</a>
+                        <h4 className="subtitle">&#129300; Predesign Thinking</h4>
+                        <p>
+                            Hello is a search engine that is optimized for developers and technical questions. 
+                            It answers questions with simple explanations and code snippets from the web instantly. 
+                            Hello uses Ai language models to quickly generate answers based on multiple resources.
+                        </p>
+                        <br/>
+                        <p>
+                            The intended audience of hello consists of developers and computer science students/ professionals. 
+                            They can use hello to receive fast answers to their technical questions. 
+                            Because of the coding nature of the startup, we chose to design a desktop interface.
+                        </p>
                     </div>
                 </div>
 
@@ -194,4 +200,4 @@ function Redesign() {
     )
 }
 
-export default Redesign;
+export default Hello;

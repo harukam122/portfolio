@@ -29,7 +29,7 @@ export const projects = [
         description:
           "Iterative design project for Hello, a startup search engine for develoopers.",
         image: "hello/hello-mockup.png",
-        link: "",
+        link: "/hello",
     },
     {
         title: "SpeechMe",
@@ -37,6 +37,6 @@ export const projects = [
         description:
           "A mobile app to practice speech, built for those with speech impediments.",
         image: "speech-me/speech-me-mockup.png",
-        link: "",
+        link: "/speech-me",
     },
   ];

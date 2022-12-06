@@ -23,7 +23,7 @@ function Personas() {
 
                 <div className="container">
                     <h2 className="section-title">About &#128269;</h2>
-                    <p className="d-inline-block mx-lg-5">
+                    <p>
                         The goal of this assignment was to understand, empathize with, and tell the story 
                         of users of a particular interface. To achieve this, I observed and interviewed users 
                         of the Coca Cola drink dispenser placed in the Ratty. Based on the findings, I generated
@@ -46,7 +46,7 @@ function Personas() {
 
                 <div className="container">
                     <h2 className="section-title">Research &#128373;&#127995;</h2>
-                    <div className="d-inline-block mx-5">
+                    <div className="mx-5">
                         <h4 className="subtitle">&#128269; Observations</h4>
                         <ul className="list">
                             <li>Many users seemed accustomed to the way the machine worked.</li>

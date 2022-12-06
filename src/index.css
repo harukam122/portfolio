@@ -10,7 +10,7 @@
     @apply text-lg md:text-2xl font-medium mt-12 mb-7;
   }
   .btn {
-    @apply shadow-[5px_6px_#9a9a9a] bg-violet-300 text-white font-semibold text-base text-center py-2 px-4 rounded-xl hover:btn-hover ease-in;
+    @apply shadow-[5px_6px_#9a9a9a] bg-violet-300 text-white font-semibold text-base text-center py-2 px-4 rounded-xl hover:btn-hover hover:ease-in;
   }
   .btn-hover {
     @apply shadow-[1px_1px_#9a9a9a;] translate-y-1;
