@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.342002c8.css",
-    "main.js": "/portfolio/static/js/main.1ebc53d5.js",
+    "main.css": "/portfolio/static/css/main.6de33cfe.css",
+    "main.js": "/portfolio/static/js/main.620accd1.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bgc-website.gif": "/portfolio/static/media/bgc-website.e0289b3e3c82d005e81c.gif",
     "static/media/bgc-resp.gif": "/portfolio/static/media/bgc-resp.a68a5bf2d83784d7c569.gif",
     "static/media/final-product.gif": "/portfolio/static/media/final-product.5b48b92c267c1afc88b1.gif",
     "static/media/storyboard.png": "/portfolio/static/media/storyboard.a68dbc5c8117f9c474a9.png",
+    "static/media/jamz-final.gif": "/portfolio/static/media/jamz-final.3de7f9efff4e04c09b64.gif",
     "static/media/hifi-ipad.png": "/portfolio/static/media/hifi-ipad.9771572adbeec62a7b49.png",
     "static/media/hifi-laptop.png": "/portfolio/static/media/hifi-laptop.37ec5703a3fc16503280.png",
     "static/media/hifi-iphone.png": "/portfolio/static/media/hifi-iphone.4a340f07eb5366534692.png",
@@ -44,12 +45,12 @@
     "static/media/wireframe-3.png": "/portfolio/static/media/wireframe-3.2ed9989be49c3568cb4d.png",
     "static/media/summertime.png": "/portfolio/static/media/summertime.659e3c0f5138b5f7e65d.png",
     "index.html": "/portfolio/index.html",
-    "main.342002c8.css.map": "/portfolio/static/css/main.342002c8.css.map",
-    "main.1ebc53d5.js.map": "/portfolio/static/js/main.1ebc53d5.js.map",
+    "main.6de33cfe.css.map": "/portfolio/static/css/main.6de33cfe.css.map",
+    "main.620accd1.js.map": "/portfolio/static/js/main.620accd1.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.342002c8.css",
-    "static/js/main.1ebc53d5.js"
+    "static/css/main.6de33cfe.css",
+    "static/js/main.620accd1.js"
   ]
 }
