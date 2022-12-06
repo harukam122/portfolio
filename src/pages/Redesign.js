@@ -1,6 +1,7 @@
+import { useEffect } from 'react';
+
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay, A11y } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -8,14 +9,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-const scrollToTop = () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-    });
-};
+function Redesign(props) {
 
-function Redesign() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+    
     return (
         <main className="flex flex-col body-text">
             <div className="w-screen sm:h-[60vh] h-[50vh] bg-gradient-to-r from-blue-200 to-pink-100 opacity-80">
@@ -187,7 +186,7 @@ function Redesign() {
                 </div>
 
                 <div className="flex justify-center text-base">
-                    <button onClick={scrollToTop}>back to the top &#128070;</button>
+                    <button onClick={props.scrollToTop}>back to the top &#128070;</button>
                 </div>
             </div>
         </main>

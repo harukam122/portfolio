@@ -1,31 +1,34 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Redesign from "./pages/Redesign";
 import JamzFindz from "./pages/JamzFindz";
 import Personas from "./pages/Personas";
 import Hello from "./pages/Hello";
-
-// import About from "./pages/About";
-// import NoPage from "./pages/NoPage";
+import NoPage from "./pages/NoPage";
+import Navbar from './components/Navbar';
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="redesign" element={<Redesign />} />
-          <Route path="jamz-findz" element={<JamzFindz />} />
-          <Route path="personas" element={<Personas />} />
-          <Route path="hello" element={<Hello />} />
 
-          {/* <Route path="about" element={<About />} /> */}
-          {/* <Route path="*" element={<NoPage />} /> */}
-        </Route>
+  const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+    });
+  };
+
+  return (
+    <Router basename={process.env.PUBLIC_URL}>
+      <Navbar />
+      <Routes>
+          <Route path='/' element={<Home scrollToTop={scrollToTop} />} />
+          <Route path="/redesign" element={<Redesign scrollToTop={scrollToTop} />} />
+          <Route path="/jamz-findz" element={<JamzFindz scrollToTop={scrollToTop} />} />
+          <Route path="/personas" element={<Personas scrollToTop={scrollToTop} />} />
+          <Route path="/hello" element={<Hello scrollToTop={scrollToTop} />} />
+          <Route path="*" element={<NoPage />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

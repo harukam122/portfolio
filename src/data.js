@@ -31,12 +31,12 @@ export const projects = [
         image: "hello/hello-mockup.png",
         link: "/hello",
     },
-    {
-        title: "SpeechMe",
-        subtitle: "Swift, Python",
-        description:
-          "A mobile app to practice speech, built for those with speech impediments.",
-        image: "speech-me/speech-me-mockup.png",
-        link: "/speech-me",
-    },
+    // {
+    //     title: "SpeechMe",
+    //     subtitle: "Swift, Python",
+    //     description:
+    //       "A mobile app to practice speech, built for those with speech impediments.",
+    //     image: "speech-me/speech-me-mockup.png",
+    //     link: "/speech-me",
+    // },
   ];

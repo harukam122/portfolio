@@ -1,12 +1,11 @@
+import { useEffect } from "react"
 
-const scrollToTop = () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-    });
-};
+function Personas(props) {
 
-function Personas() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <main className="flex flex-col body-text">
             <div className="w-screen sm:h-[60vh] h-[50vh] bg-gradient-to-r from-blue-200 to-pink-100 opacity-80">
@@ -151,7 +150,7 @@ function Personas() {
                 </div>
 
                 <div className="flex justify-center text-base">
-                    <button onClick={scrollToTop}>back to the top &#128070;</button>
+                    <button onClick={props.scrollToTop}>back to the top &#128070;</button>
                 </div>
             </div>
         </main>

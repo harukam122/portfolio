@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "/portfolio/",
   "private": false,
   "dependencies": {
     "@heroicons/react": "^2.0.13",

@@ -1,15 +1,21 @@
 import About from '../components/Intro';
 import Projects from '../components/Projects';
+import { useEffect } from 'react';
 
 function Home() {
-    return (
-      <div className="App bg-white min-h-screen">
-      <main className="body-text">
-        <About />
-        <Projects />
-      </main>
-      </div>
-    );
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+  return (
+    <div className="App bg-white min-h-screen">
+    <main className="body-text">
+      <About />
+      <Projects />
+    </main>
+    </div>
+  );
 }
   
 export default Home;
