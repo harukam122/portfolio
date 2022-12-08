@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6de33cfe.css",
-    "main.js": "/portfolio/static/js/main.620accd1.js",
+    "main.css": "/portfolio/static/css/main.0aaa41fc.css",
+    "main.js": "/portfolio/static/js/main.36095003.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bgc-website.gif": "/portfolio/static/media/bgc-website.e0289b3e3c82d005e81c.gif",
     "static/media/bgc-resp.gif": "/portfolio/static/media/bgc-resp.a68a5bf2d83784d7c569.gif",
@@ -16,15 +16,24 @@
     "static/media/bgc-menu2.png": "/portfolio/static/media/bgc-menu2.e432b7fc7be21b6cec4f.png",
     "static/media/bgc-menu1.png": "/portfolio/static/media/bgc-menu1.a402f4ec9da29c79bac1.png",
     "static/media/lofi-ipad.png": "/portfolio/static/media/lofi-ipad.a59bb6e85539c4d671d9.png",
+    "static/media/p3.jpg": "/portfolio/static/media/p3.50bcc147144a0090ace6.jpg",
     "static/media/lofi-iphone.png": "/portfolio/static/media/lofi-iphone.e64195801bcb36854d5f.png",
     "static/media/redesign-mockup.png": "/portfolio/static/media/redesign-mockup.9b2712fb25d2b9cd5556.png",
     "static/media/lofi-laptop.png": "/portfolio/static/media/lofi-laptop.61fb443e05d4a4074bb2.png",
     "static/media/empathy-map-2.jpg": "/portfolio/static/media/empathy-map-2.dfa1976c3e4e78896730.jpg",
     "static/media/empathy-map-1.jpg": "/portfolio/static/media/empathy-map-1.19680c29a3db4541c055.jpg",
+    "static/media/p6.jpg": "/portfolio/static/media/p6.26eb267f1dddfe6d36ed.jpg",
     "static/media/jamz-mockup.png": "/portfolio/static/media/jamz-mockup.fcd14c62c4a528fe382e.png",
     "static/media/speech-me-mockup.png": "/portfolio/static/media/speech-me-mockup.b5f594bc8bf865eb4c43.png",
+    "static/media/p1.jpg": "/portfolio/static/media/p1.d4d8beb8dd1dcf220e05.jpg",
+    "static/media/p9.jpg": "/portfolio/static/media/p9.1b50e667cd806e7a16ba.jpg",
+    "static/media/p8.jpg": "/portfolio/static/media/p8.0e7e08aa4dbb4db13a70.jpg",
     "static/media/style-guide.png": "/portfolio/static/media/style-guide.e87750691ba3303e0af0.png",
+    "static/media/p10.jpg": "/portfolio/static/media/p10.6ee7ef837e81b4ec81cf.jpg",
+    "static/media/p5.jpg": "/portfolio/static/media/p5.a656f336e79fb05eb198.jpg",
+    "static/media/p7.jpg": "/portfolio/static/media/p7.cc4aa6fc0cbe0ed5d94d.jpg",
     "static/media/before-4.png": "/portfolio/static/media/before-4.446d81d0f9390064bc48.png",
+    "static/media/p4.jpg": "/portfolio/static/media/p4.8727f1e882e9d9cbf50d.jpg",
     "static/media/before-6.png": "/portfolio/static/media/before-6.3ac4cc672ee87b0e4b9a.png",
     "static/media/user-1.jpg": "/portfolio/static/media/user-1.0ed2cdc15e51f0b7524b.jpg",
     "static/media/before-5.png": "/portfolio/static/media/before-5.2bd5c9a453449e8b5e1a.png",
@@ -33,6 +42,7 @@
     "static/media/memoji.png": "/portfolio/static/media/memoji.e7445a0e930e89ae1ca5.png",
     "static/media/personas.png": "/portfolio/static/media/personas.d512ff9abe8dd6ed2e74.png",
     "static/media/before-7.png": "/portfolio/static/media/before-7.83708b38f399ac892d6c.png",
+    "static/media/p2.jpg": "/portfolio/static/media/p2.9de1055d898b5635f015.jpg",
     "static/media/wireframe-7.png": "/portfolio/static/media/wireframe-7.e1a7bdd09c566f85f462.png",
     "static/media/hello-mockup.png": "/portfolio/static/media/hello-mockup.1569590ca3857552abe5.png",
     "static/media/wireframe-6.png": "/portfolio/static/media/wireframe-6.e024d7c0c16b7093ef6a.png",
@@ -45,12 +55,12 @@
     "static/media/wireframe-3.png": "/portfolio/static/media/wireframe-3.2ed9989be49c3568cb4d.png",
     "static/media/summertime.png": "/portfolio/static/media/summertime.659e3c0f5138b5f7e65d.png",
     "index.html": "/portfolio/index.html",
-    "main.6de33cfe.css.map": "/portfolio/static/css/main.6de33cfe.css.map",
-    "main.620accd1.js.map": "/portfolio/static/js/main.620accd1.js.map",
+    "main.0aaa41fc.css.map": "/portfolio/static/css/main.0aaa41fc.css.map",
+    "main.36095003.js.map": "/portfolio/static/js/main.36095003.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6de33cfe.css",
-    "static/js/main.620accd1.js"
+    "static/css/main.0aaa41fc.css",
+    "static/js/main.36095003.js"
   ]
 }
