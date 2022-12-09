@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6965b7a2.css",
-    "main.js": "/portfolio/static/js/main.17f0951b.js",
+    "main.css": "/portfolio/static/css/main.c4274607.css",
+    "main.js": "/portfolio/static/js/main.8dd0404a.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bgc-website.gif": "/portfolio/static/media/bgc-website.e0289b3e3c82d005e81c.gif",
     "static/media/bgc-resp.gif": "/portfolio/static/media/bgc-resp.a68a5bf2d83784d7c569.gif",
@@ -55,12 +55,12 @@
     "static/media/wireframe-3.png": "/portfolio/static/media/wireframe-3.2ed9989be49c3568cb4d.png",
     "static/media/summertime.png": "/portfolio/static/media/summertime.659e3c0f5138b5f7e65d.png",
     "index.html": "/portfolio/index.html",
-    "main.6965b7a2.css.map": "/portfolio/static/css/main.6965b7a2.css.map",
-    "main.17f0951b.js.map": "/portfolio/static/js/main.17f0951b.js.map",
+    "main.c4274607.css.map": "/portfolio/static/css/main.c4274607.css.map",
+    "main.8dd0404a.js.map": "/portfolio/static/js/main.8dd0404a.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6965b7a2.css",
-    "static/js/main.17f0951b.js"
+    "static/css/main.c4274607.css",
+    "static/js/main.8dd0404a.js"
   ]
 }
