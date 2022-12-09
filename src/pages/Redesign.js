@@ -51,7 +51,7 @@ function Redesign() {
                             It is also far from being accessible and currently unable to adapt to the needs of various users.</p>
                     </div>
                     <div className="flex justify-center">
-                        <a href="http://bagelgourmetcafe.com/menu.html" target="_blank" className="btn">Take Me to the Page &#10145;&#65039;</a>
+                        <a href="http://bagelgourmetcafe.com/menu.html" target="_blank" className="btn w-44 mt-8">Take Me to the Original Page &#10145;&#65039;</a>
                     </div>
                 </div>
 
@@ -63,36 +63,36 @@ function Redesign() {
                         <h4 className="subtitle">&#128077; Responsiveness</h4>
                         <img id="webpage-img" className="items-center m-4" src={require("../assets/redesign/bgc-resp.gif")} alt="bagel gourmet café responsiveness gif"/>
                         <ul className="list">
-                            <li>When the screen shrinks, the page simply gets cut off horizontally, so you have to manually scroll to the end. On smaller devices, the page display simply shrinks, making the lettering too small to read</li>
+                            <li className="mb-1">When the screen shrinks, the page simply gets cut off horizontally, so you have to manually scroll to the end. On smaller devices, the page display simply shrinks, making the lettering too small to read</li>
                         </ul>
                         <h4 className="subtitle">&#129504; Conceptual vs Mental Model</h4>
                         <ul className="list">
-                            <li>Some style choices like underlining make certain texts seem like links while they aren’t</li>
-                            <li>Navigation buttons change location based on the page a user is on. The user's mental model will likely expect it to stay in one location.</li>
-                            <li>Clicking on the logo does not take the user back to home page, which is now a part of most mental models of modern websites</li>
+                            <li className="mb-1">Some style choices like underlining make certain texts seem like links while they aren’t</li>
+                            <li className="mb-1">Navigation buttons change location based on the page a user is on. The user's mental model will likely expect it to stay in one location.</li>
+                            <li className="mb-1">Clicking on the logo does not take the user back to home page, which is now a part of most mental models of modern websites</li>
 
                         </ul>
                         <h4 className="subtitle">&#127912; Visual Design & Usability</h4>
                         <ul className="list">
-                            <li>Bottom buttons blend in with the background, and so does the link randomly placed at the top left corner</li>
-                            <li>Layout of prices are offset with varying styles––some bolded, some not &#10145;&#65039; very hard to read or compare prices</li>
-                            <li>Hard to tell which options belong to what menu item, since the only distinctions are underlined vs. non-underlined (sometimes italics and/or bolded) 😵‍💫</li>
-                            <li>The difference in font styles––sometimes serif, other times sans serif––of the same information type (i.e. availanble flavors/toppings) may leave the user confused what the difference could be</li>
-                            <li>Despite all the available space on the right, all contents are shifted to the left with very tight columns and small text. The margins are also missing in some text displays.</li>
-                            <li>The color scheme in some places offers little contrast, making elements like the links at the bottom very difficult to read</li>
+                            <li className="mb-1">Bottom buttons blend in with the background, and so does the link randomly placed at the top left corner</li>
+                            <li className="mb-1">Layout of prices are offset with varying styles––some bolded, some not &#10145;&#65039; very hard to read or compare prices</li>
+                            <li className="mb-1">Hard to tell which options belong to what menu item, since the only distinctions are underlined vs. non-underlined (sometimes italics and/or bolded) 😵‍💫</li>
+                            <li className="mb-1">The difference in font styles––sometimes serif, other times sans serif––of the same information type (i.e. availanble flavors/toppings) may leave the user confused what the difference could be</li>
+                            <li className="mb-1">Despite all the available space on the right, all contents are shifted to the left with very tight columns and small text. The margins are also missing in some text displays.</li>
+                            <li className="mb-1">The color scheme in some places offers little contrast, making elements like the links at the bottom very difficult to read</li>
                         </ul>
                         <h4 className="subtitle">&#128155; Accessibility</h4>
                         <ul className="list">
-                            <li>There is no alt text for the images, so screen readers cannot read them</li>
-                            <li>Only uses h4 and h5 elements, and no h1 is found &#10145;&#65039; not enough hierarchy</li>
-                            <li>Language is never identified</li>
-                            <li>Poor color contrast</li>
-                            <li>There are empty headings, which can confuse screen readers</li>
-                            <li>Missing or uninformative page title</li>
-                            <li>No page regions are identified</li>
-                            <li>Non-link texts are underlined</li>
-                            <li>Texts overall are very small</li>
-                            <li>Layout tables are present: can cause reading/navigation order issues</li>
+                            <li className="mb-1">There is no alt text for the images, so screen readers cannot read them</li>
+                            <li className="mb-1">Only uses h4 and h5 elements, and no h1 is found &#10145;&#65039; not enough hierarchy</li>
+                            <li className="mb-1">Language is never identified</li>
+                            <li className="mb-1">Poor color contrast</li>
+                            <li className="mb-1">There are empty headings, which can confuse screen readers</li>
+                            <li className="mb-1">Missing or uninformative page title</li>
+                            <li className="mb-1">No page regions are identified</li>
+                            <li className="mb-1">Non-link texts are underlined</li>
+                            <li className="mb-1">Texts overall are very small</li>
+                            <li className="mb-1">Layout tables are present: can cause reading/navigation order issues</li>
                         </ul>
                     </div>
                     <h4 className="mt-5">...so, how could I make this better?</h4>
@@ -106,10 +106,10 @@ function Redesign() {
                     <div className="d-inline-block text-start mx-5">
                         <h4 className="subtitle">&#128161; Main Focus</h4>
                         <ul className='list'>
-                            <li>poor readability due to confusing fonts, font styles, and small text size</li>
-                            <li>poor usability due to its menu layout</li>
-                            <li>lack of responsiveness, especially when resizing a window</li>
-                            <li>accessibility issues––in particular the lack of alt tags & hierarchy, small text, etc.</li>
+                            <li className="mb-1">poor readability due to confusing fonts, font styles, and small text size</li>
+                            <li className="mb-1">poor usability due to its menu layout</li>
+                            <li className="mb-1">lack of responsiveness, especially when resizing a window</li>
+                            <li className="mb-1">accessibility issues––in particular the lack of alt tags & hierarchy, small text, etc.</li>
                         </ul>
                     </div>
                     <br/>
@@ -177,7 +177,7 @@ function Redesign() {
                 <div className="container justify-center">
                     <h2 className="section-title">Final Product &#128173;</h2>
                     <br/>
-                    <div>
+                    <div className="flex justify-center">
                         <img className="mb-5 mx-4" src={require("../assets/redesign/final-product.gif")} alt="final redesigned website gif"/>
                     </div>
                     <div className="flex justify-center">

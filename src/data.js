@@ -39,4 +39,4 @@ export const projects = [
     //     image: "speech-me/speech-me-mockup.png",
     //     link: "/speech-me",
     // },
-  ];
+];

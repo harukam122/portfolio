@@ -48,28 +48,28 @@ function Personas() {
                     <div className="mx-5">
                         <h4 className="subtitle">&#128269; Observations</h4>
                         <ul className="list">
-                            <li>Many users seemed accustomed to the way the machine worked.</li>
-                            <li>No user was confused as to which dispenser was for ice vs. drinks.</li>
-                            <li>Only 1 user paused looking at the various flavors once selecting the drink type.</li>
-                            <li>The users who changed their minds tended to pick a drink from the center cluster of drinks.</li>
-                            <li>All users went to press the ice dispenser before looking at the digital screen.</li>
+                            <li className="mb-1">Many users seemed accustomed to the way the machine worked.</li>
+                            <li className="mb-1">No user was confused as to which dispenser was for ice vs. drinks.</li>
+                            <li className="mb-1">Only 1 user paused looking at the various flavors once selecting the drink type.</li>
+                            <li className="mb-1">The users who changed their minds tended to pick a drink from the center cluster of drinks.</li>
+                            <li className="mb-1">All users went to press the ice dispenser before looking at the digital screen.</li>
                         </ul>
                         <h4 className="subtitle">&#129504; Questions</h4>
                         <ol className="list list-decimal">
-                            <li>What was the feature you first noticed?</li>
-                            <li>Did you already have a drink in mind coming in?</li>
-                            <li>If so, did the design/placement of the drink buttons change your mind at all?</li>
-                            <li>Was the flow clear? In other words, was what to do next obvious?</li>
-                            <li>Was there anything surprising or unexpected about the interface?</li>
-                            <li>Did you notice the buttons on the bottom or the exclusive flavor options?</li>
+                            <li className="mb-1">What was the feature you first noticed?</li>
+                            <li className="mb-1">Did you already have a drink in mind coming in?</li>
+                            <li className="mb-1">If so, did the design/placement of the drink buttons change your mind at all?</li>
+                            <li className="mb-1">Was the flow clear? In other words, was what to do next obvious?</li>
+                            <li className="mb-1">Was there anything surprising or unexpected about the interface?</li>
+                            <li className="mb-1">Did you notice the buttons on the bottom or the exclusive flavor options?</li>
                         </ol>
                         <h4 className="subtitle">&#128172; Responses</h4>
                         <ul className="list">
-                            <li>3 out of the 4 users interviewed answered that the first feature they noticed was the collection of many options and colors on the screen.</li>
-                            <li>Some already had a drink in mind, but others changed their mind after looking at the options. Those who changed their minds were not exactly sure whether their decisions were influenced by the placement/design of the drink options.</li>
-                            <li>All users found the flow and the expected actions to take very clear and unconfusing. They are also accustomed users of the machine, so not much thinking was required.</li>
-                            <li>No surprising elements were found while they were interacting with the interface, but later on, users were surprised to find the filters and the Exclusive Flavors button once looking at the interface closely.</li>
-                            <li>3 out of the 4 users never noticed the filters. Most users had also dismissed the Exclusive Flavors button to be an advertisement, as it seemed like a static element similar to the QR code.</li>
+                            <li className="mb-1">3 out of the 4 users interviewed answered that the first feature they noticed was the collection of many options and colors on the screen.</li>
+                            <li className="mb-1">Some already had a drink in mind, but others changed their mind after looking at the options. Those who changed their minds were not exactly sure whether their decisions were influenced by the placement/design of the drink options.</li>
+                            <li className="mb-1">All users found the flow and the expected actions to take very clear and unconfusing. They are also accustomed users of the machine, so not much thinking was required.</li>
+                            <li className="mb-1">No surprising elements were found while they were interacting with the interface, but later on, users were surprised to find the filters and the Exclusive Flavors button once looking at the interface closely.</li>
+                            <li className="mb-1">3 out of the 4 users never noticed the filters. Most users had also dismissed the Exclusive Flavors button to be an advertisement, as it seemed like a static element similar to the QR code.</li>
                         </ul>
                     </div>
                 </div>
@@ -88,10 +88,10 @@ function Personas() {
                             <div className="inline-block">
                                 <p>
                                     <ul className="list">
-                                        <li>is a Junior at Brown studying computer science</li>
-                                        <li>is often busy and doesn't spend long periods of time on meals</li>
-                                        <li>likes to be healthy and generally avoids sugary drinks</li>
-                                        <li>generally likes having a routine lifestyle and does not like to be out of her comfort zone</li>
+                                        <li className="mb-1">is a Junior at Brown studying computer science</li>
+                                        <li className="mb-1">is often busy and doesn't spend long periods of time on meals</li>
+                                        <li className="mb-1">likes to be healthy and generally avoids sugary drinks</li>
+                                        <li className="mb-1">generally likes having a routine lifestyle and does not like to be out of her comfort zone</li>
                                     </ul>
                                 </p>
                             </div>
@@ -106,10 +106,10 @@ function Personas() {
                             <div className="inline-block">
                                 <p>
                                     <ul className="list">
-                                        <li>is a Freshman at Brown who is undecided and loves to explore</li>
-                                        <li>loves exploring courses in different departments, restaurants in Providence, and new drinks</li>
-                                        <li>likes to take time at their meals and enjoy conversations with friends</li>
-                                        <li>is usually fickle, and their mind is easily changed</li>
+                                        <li className="mb-1">is a Freshman at Brown who is undecided and loves to explore</li>
+                                        <li className="mb-1">loves exploring courses in different departments, restaurants in Providence, and new drinks</li>
+                                        <li className="mb-1">likes to take time at their meals and enjoy conversations with friends</li>
+                                        <li className="mb-1">is usually fickle, and their mind is easily changed</li>
                                     </ul>
                                 </p>
                             </div>
@@ -133,19 +133,17 @@ function Personas() {
 
                 <div className="container justify-center">
                     <h2 className="section-title">Takeaways &#128477;</h2>
-                    <p>
-                        Some of the key takeaways and findings of this assignment were...
-                        <ul className='list'>
-                            <li>The users of the drink dispenser are generally divided into two groups:
-                                <ol className='list'>
-                                    <li>users who appreciate the various, colorful flavors offered, and are willing to explore different flavors</li>
-                                    <li>users who simply want to hydrate and are not willing to spend time exploring other options</li>
-                                </ol>
-                            </li>
-                            <li>Although the first group of users may greatly benefit from the Exclusive Flavors page and the various filters offered, majority of users do not notice their existence.</li>
-                            <li>Many users are repeat users, and are by now accustomed to the flow of the interface. Regardless, all interviewed users found the interface to be intuitive.</li>
-                        </ul>
-                    </p>
+                    <p className="mb-2">Some of the key takeaways and findings of this assignment were...</p>
+                    <ul className='list'>
+                        <li>The users of the drink dispenser are generally divided into two groups:
+                            <ol className='list'>
+                                <li>users who appreciate the various, colorful flavors offered, and are willing to explore different flavors</li>
+                                <li className="mb-2">users who simply want to hydrate and are not willing to spend time exploring other options</li>
+                            </ol>
+                        </li>
+                        <li className="mb-2">Although the first group of users may greatly benefit from the Exclusive Flavors page and the various filters offered, majority of users do not notice their existence.</li>
+                        <li className="mb-2">Many users are repeat users, and are by now accustomed to the flow of the interface. Regardless, all interviewed users found the interface to be intuitive.</li>
+                    </ul>
                 </div>
             </div>
         </main>

@@ -1,4 +1,4 @@
-import About from '../components/Intro';
+import Intro from '../components/Intro';
 import Projects from '../components/Projects';
 import { useEffect } from 'react';
 
@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="App bg-white min-h-screen">
     <main className="body-text">
-      <About />
+      <Intro />
       <Projects />
     </main>
     </div>

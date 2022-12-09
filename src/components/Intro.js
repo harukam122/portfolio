@@ -1,10 +1,10 @@
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
 
-export default function About() {
+export default function Intro() {
   return (
-    <section id="about">
-        <div className="bg-white mx-auto flex px-32 py-20 md:flex-row flex-col items-center">
+    <section>
+        <div className="bg-white mx-auto flex px-16 sm:px-32 py-20 md:flex-row flex-col items-center min-h-[90vh]">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <h1 className="text-slate-800 mb-4 text-4xl md:text-6xl font-bold">
                     Hi, I'm Haruka! 👋🏻

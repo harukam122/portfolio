@@ -4,7 +4,7 @@
 
 @layer components {
   .section-title {
-    @apply text-gray-600 mb-7 text-xl md:text-3xl font-medium;
+    @apply mb-7 text-xl md:text-3xl font-medium;
   }
   .subtitle {
     @apply text-lg md:text-2xl font-medium mt-12 mb-7;
@@ -22,6 +22,6 @@
     @apply list-outside list-disc ml-6;
   }
   .body-text {
-    @apply text-gray-600 text-lg font-[350] tracking-wide leading-relaxed;
+    @apply text-gray-600 text-lg font-[350] tracking-wide leading-relaxed antialiased;
   }
 }

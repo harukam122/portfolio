@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section id="projects" className="text-slate-500 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-20">
-        <div className="flex flex-wrap -m-4">
+        <div className="mx-auto justify-center flex flex-wrap -m-4">
           {projects.map((project) => (
             <Link
               to={project.link}
