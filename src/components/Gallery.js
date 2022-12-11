@@ -17,11 +17,11 @@ export default function Gallery() {
                         className="p-4 absolute inset-0 w-full h-full object-scale-down object-center"
                         src={require("../assets/" + artwork.image)}
                         />
-                        <div className="flex justify-center items-center text-center px-8 py-10 relative z-10 w-full bg-white opacity-0 hover:opacity-95 hover:duration-500">
+                        {/* <div className="flex justify-center items-center text-center px-8 py-10 relative z-10 w-full bg-white opacity-0 hover:opacity-95 hover:duration-500">
                             <h1 className="text-3xl align-middle font-normal mb-3">
                                 {artwork.title}
                             </h1>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             ))}

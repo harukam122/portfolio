@@ -10,7 +10,7 @@ export default function Navbar() {
                 <Link to="/" className="mr-6 text-slate-600 text-3xl">HM</Link>
             </div>
             <div>
-                <Link to="/" className="mr-5 text-slate-500 hover:text-slate-700">Work</Link>
+                <Link to="/" className="mr-5 text-slate-500 hover:text-slate-700">Home</Link>
                 <Link to="/about" className="mr-5 text-slate-500 hover:text-slate-700">About</Link>
             </div>
         </nav>

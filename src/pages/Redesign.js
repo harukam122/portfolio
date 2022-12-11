@@ -41,7 +41,7 @@ function Redesign() {
                 <hr class="hr"/>
 
                 <div className="container">
-                    <h2 className="section-title">Web Page &#128187;</h2>
+                    <h2 className="section-title">Original Page &#128187;</h2>
                     <br/>
                     <img id="webpage-img" className="mb-5 mx-4" src={require("../assets/redesign/bgc-website.gif")} alt="bagel gourmet café menu gif"/>
                     <div className="d-inline-block mx-5 mb-8">
