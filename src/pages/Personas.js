@@ -77,7 +77,7 @@ function Personas() {
                 <hr className="hr"/>
 
                 <div className="container">
-                    <h2 className="section-title">Personas &#128221;</h2>
+                    <h2 className="section-title">Personas &#128100;</h2>
                     <h4 className="mb-10">First, I created three wireframes. <br/> Below are my lo-fi for laptop, iPad, and iPhone, created using Balsamiq.</h4>
                     <div className="flex flex-row flex-wrap gap-y-20 justify-between">
                         <div className="md:w-[45%] w-full">
@@ -132,8 +132,8 @@ function Personas() {
                 <hr className="hr"/>
 
                 <div className="container justify-center">
-                    <h2 className="section-title">Takeaways &#128477;</h2>
-                    <p className="mb-2">Some of the key takeaways and findings of this assignment were...</p>
+                    <h2 className="section-title">Findings Summary &#128221;</h2>
+                    <p className="mb-2">Some of the key findings from this assignment were...</p>
                     <ul className='list'>
                         <li>The users of the drink dispenser are generally divided into two groups:
                             <ol className='list'>
@@ -144,6 +144,15 @@ function Personas() {
                         <li className="mb-2">Although the first group of users may greatly benefit from the Exclusive Flavors page and the various filters offered, majority of users do not notice their existence.</li>
                         <li className="mb-2">Many users are repeat users, and are by now accustomed to the flow of the interface. Regardless, all interviewed users found the interface to be intuitive.</li>
                     </ul>
+                </div>
+
+                <hr className="hr"/>
+
+                <div className="container justify-center">
+                    <h2 className="section-title">Takeaways &#128477;</h2>
+                    <p className="mb-2">
+                        Through this project, I learned the importance of understanding the user before we dive into designing. Observing and interviewing users often revealed things I did not expect, and it allowed me to better step into their shoes and see the product under question in their light. Additionally, I learned how to go about crafting non-leading, objective questions to gain unbiased inputs in an interview. Overall, I found this project to be a good introduction to the first steps of the design process!
+                    </p>
                 </div>
             </div>
         </main>

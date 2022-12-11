@@ -234,7 +234,16 @@ function Hello() {
                 <div className="container">
                     <h2 className="section-title">Future Considerations &#129300;</h2>
                     <p className='mb-5'>
-                        Based on this feedback, we would definitely give less space to the web results. It was mentioned multiple times that the main draw of the platform is the hello answers, so the web answers can be deprioritized since users can just go to Google if they wanted that.
+                        Based on this feedback, we would definitely give less space to the web results. It was mentioned multiple times that the main draw of the platform is the hello answers, so the web answers can be deprioritized since users can just go to Google if they wanted regular search results.
+                    </p>
+                </div>
+
+                <hr className="hr"/>
+
+                <div className="container justify-center">
+                    <h2 className="section-title">Takeaways &#128477;</h2>
+                    <p className="mb-2">
+                        From this project, I learned the importance of user feedback when designing a product. With two rounds of user inputs, one with peers and one with random testers, we were able to gather various inputs and shed light on places we could improve in our design. I also found that once we had settled on a design, it was difficult to pivot or change the design drastically. However, given user input, we sometimes may need to change directions completely. In the future, I would like to stay as flexible and open as I can to the feedback I receive!
                     </p>
                 </div>
             </div>

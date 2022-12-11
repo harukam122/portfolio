@@ -64,9 +64,9 @@ function JamzFindz() {
 
                 <div className="container">
                     <h2 className="section-title">Organization of Components &#128221;</h2>
-                    <h4>I used the below components within the App component to organize my code:</h4>
+                    <h4 className="mb-2">I used the below components within the App component to organize my code:</h4>
                     <ol className='list list-decimal'>
-                        <li><b>Album:</b> this component represents a card that shows each album's data pulled from the Spotify API.</li>
+                        <li className="mb-2"><b>Album:</b> this component represents a card that shows each album's data pulled from the Spotify API.</li>
                         <li><b>Filter:</b> this component is the sidebar containing the filtering and sorting options displayed.</li>
                     </ol>
                 </div>
@@ -75,11 +75,11 @@ function JamzFindz() {
 
                 <div className="container">
                     <h2 className="section-title">Flow of Data &#10024;</h2>
-                    <h4>I pass down the following data through components:</h4>
+                    <h4 className="mb-2">I pass down the following data through components:</h4>
                     <ol className='list list-decimal'>
-                        <li><b>filters:</b> A dictionary of all the filters and their respective states. This is passed down through the Filters component and used to update the filters' states when a user checks or unchecks a filter.</li>
-                        <li><b>favItems:</b> A list of favorited albums. This is passed through the Album component and used to add an album to the list when favorited by user.</li>
-                        <li><b>totalTracks:</b> The total number of tracks in all favorited albums. This is passed through both the Album and Filters components. The Album component uses it to add/subtract newly favorited or un-favorited album's track number to/from the total. The Filters component uses this data to display under the Favorites filter option.</li>
+                        <li className="mb-2"><b>filters:</b> A dictionary of all the filters and their respective states. This is passed down through the Filters component and used to update the filters' states when a user checks or unchecks a filter.</li>
+                        <li className="mb-2"><b>favItems:</b> A list of favorited albums. This is passed through the Album component and used to add an album to the list when favorited by user.</li>
+                        <li className="mb-2"><b>totalTracks:</b> The total number of tracks in all favorited albums. This is passed through both the Album and Filters components. The Album component uses it to add/subtract newly favorited or un-favorited album's track number to/from the total. The Filters component uses this data to display under the Favorites filter option.</li>
                         <li><b>musicData/setMusicData:</b> The items within the original data pulled from Spotify (JSON of albums and their information). This is passed through the Filters component and used to sort the data when user selects a sorting option.</li>
                     </ol>
                 </div>
@@ -89,11 +89,20 @@ function JamzFindz() {
                 <div className="container justify-center">
                     <h2 className="section-title">Final Product &#128173;</h2>
                     <div className="flex justify-center">
-                        <img className="mb-5 mx-4" src={require("../assets/jamz/jamz-final.gif")} alt="final website gif"/>
+                        <img className="mb-5 mx-4 shadow-xl" src={require("../assets/jamz/jamz-final.gif")} alt="final website gif"/>
                     </div>
                     <div className="flex justify-center">
-                        <a className="btn w-52 mt-10" href="https://happyquokka123.github.io/jamz-findz/" target="_blank">Take Me to the Page! &#10145;&#65039;</a>
+                        <a className="btn mt-10" href="https://happyquokka123.github.io/jamz-findz/" target="_blank">Take Me to the Page! &#10145;&#65039;</a>
                     </div>
+                </div>
+
+                <hr className="hr"/>
+
+                <div className="container justify-center">
+                    <h2 className="section-title">Takeaways &#128477;</h2>
+                    <p className="mb-2">
+                        Through this project, I learned the fundamentals of React, including how components, props, useState, and useEffect work. I definitely learned about the best ways to use useEffect the hard way, as I ran into issues with my useEffect callbacks running on load, but I absolutely love what I ended up with! Especially since it uses real-time data pulled from Spotify, I think this web app could bring value to users in a way that is user-friendly!
+                    </p>
                 </div>
             </div>
         </main>

@@ -184,6 +184,15 @@ function Redesign() {
                         <a className="btn w-52 mt-10" href="https://happyquokka123.github.io/bagel-gourmet-redesign/" target="_blank">Take Me to the New & Improved Page! &#10145;&#65039;</a>
                     </div>
                 </div>
+
+                <hr className="hr"/>
+
+                <div className="container justify-center">
+                    <h2 className="section-title">Takeaways &#128477;</h2>
+                    <p className="mb-2">
+                        Through this project, I was able to learn the general flow of how a UI/UX designer might approach redesigning a website. It was definitely not easy learning to align elements in the way I wanted, but the final result is a very fulfilling one for sure! Given the improvements from the original to the redesigned website, the significance of accessibility, usability, and memorability became even more apparent to me. Overall, I'm glad I was able to learn some crucial skills like setting breakpoints and using Bootstrap from this assignment :D
+                    </p>
+                </div>
             </div>
         </main>
     )
