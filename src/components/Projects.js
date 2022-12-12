@@ -34,7 +34,7 @@ export default function Projects() {
               </Link>
               <div className="mx-2 mt-4 flex flex-row justify-between items-center">
                 <h1 className="text-start text-gray-600 font-medium text-2xl">{project.title}</h1>
-                <div>
+                <div className="flex flex-wrap justify-end gap-y-2">
                   {project.tags.map((tag) => (
                     <button className="rounded-full bg-indigo-100 text-gray-500 text-sm px-2 py-0.5 ml-2">{tag}</button>
                   ))}
