@@ -1,3 +1,5 @@
-## Welcome!
+## 🧸 Welcome!</h2>
 
-Welcome to my portfolio page! Feel free to look around my projects at [this link](https://harukam122.github.io/portfolio/)!
+<pre>
+💡 [This](https://harukam122.github.io/portfolio/) is Haruka's personal website showcasing a few projects! Feel free to explore!
+</pre>
