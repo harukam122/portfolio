@@ -5,6 +5,8 @@ import Redesign from "./pages/Redesign";
 import JamzFindz from "./pages/JamzFindz";
 import Personas from "./pages/Personas";
 import Hello from "./pages/Hello";
+import SpeechMe from './pages/SpeechMe';
+import Syntax from './pages/Syntax';
 import About from "./pages/About";
 import NoPage from "./pages/NoPage";
 import Navbar from './components/Navbar';
@@ -28,6 +30,8 @@ function App() {
           <Route path="/jamz-findz" element={<JamzFindz scrollToTop={scrollToTop} />} />
           <Route path="/personas" element={<Personas scrollToTop={scrollToTop} />} />
           <Route path="/hello" element={<Hello scrollToTop={scrollToTop} />} />
+          <Route path="/speech-me" element={<SpeechMe scrollToTop={scrollToTop} />} />
+          <Route path="/syntax" element={<Syntax scrollToTop={scrollToTop} />} />
           <Route path="/about" element={<About scrollToTop={scrollToTop} />} />
           <Route path="*" element={<NoPage />} />
       </Routes>

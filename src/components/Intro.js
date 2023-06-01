@@ -24,7 +24,7 @@ export default function Intro() {
                     className="text-gray-700 mb-4 text-3xl md:text-4xl lg:text-5xl font-bold"
                 />
                 <p className="mb-8 text-gray-500 text-base md:text-xl leading-loose">
-                    I'm a sophomore at Brown University studying Computer Science.
+                    I'm a rising junior at Brown University studying Computer Science.
                     <br/>
                     My interests lie at the intersection of technology and design, and I'm passionate about creating user-centered solutions using tech!
                     <br/>

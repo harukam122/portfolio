@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-function JamzFindz() {
+function SpeechMe() {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -17,10 +17,10 @@ function JamzFindz() {
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
                 <div className="container mb-16">
-                    <h1 className="text-gray-600 text-2xl md:text-4xl font-semibold">Jamz Findz</h1>
+                    <h1 className="text-gray-600 text-2xl md:text-4xl font-semibold">Coming Soon...</h1>
                 </div>
 
-                <div className="container">
+                {/* <div className="container">
                     <h2 className="section-title">About &#128269;</h2>
                     <p>
                         The focus of this project was to gain a better grasp of frontend development, so this project involved less of a design-oriented process. 
@@ -103,10 +103,10 @@ function JamzFindz() {
                     <p className="mb-2">
                         Through this project, I learned the fundamentals of React, including how components, props, useState, and useEffect work. I definitely learned about the best ways to use useEffect the hard way, as I ran into issues with my useEffect callbacks running on load, but I absolutely love what I ended up with! Especially since it uses real-time data pulled from Spotify, I think this web app could bring value to users in a way that is user-friendly!
                     </p>
-                </div>
+                </div> */}
             </div>
         </main>
     )
 }
 
-export default JamzFindz;
+export default SpeechMe;

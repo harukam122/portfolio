@@ -7,11 +7,10 @@ export default function Projects() {
     <section className="body-text">
       <div className="container px-5 py-10 mx-auto text-center lg:px-20">
         <div className="mx-auto justify-center flex flex-wrap -m-4">
-          {projects.map((project) => (
-            <div className="sm:w-1/2 w-9/12 sm:p-8 p-6">
+          {projects.map((project, index) => (
+            <div className="sm:w-1/2 w-9/12 sm:p-8 p-6" key={index}>
               <Link
                 to={project.link}
-                key={project.title}
                 className="sm:w-1/2 w-9/12">
                   <div className="p-3 sm:h-96 flex relative rounded-2xl hover:duration-300 hover:scale-[1.03] hover:drop-shadow-md bg-gradient-to-r from-blue-200 to-pink-100 opacity-80">
                       <img
@@ -35,8 +34,8 @@ export default function Projects() {
               <div className="mx-2 mt-4 flex flex-row justify-between items-center">
                 <h1 className="text-start text-gray-600 font-medium text-2xl">{project.title}</h1>
                 <div className="flex flex-wrap justify-end gap-y-2">
-                  {project.tags.map((tag) => (
-                    <button className="rounded-full bg-indigo-100 text-gray-500 text-sm px-2 py-0.5 ml-2">{tag}</button>
+                  {project.tags.map((tag, index) => (
+                    <button className="rounded-full bg-indigo-100 text-gray-500 text-sm px-2 py-0.5 ml-2" key={index}>{tag}</button>
                   ))}
                 </div>
               </div>
