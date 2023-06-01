@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5d4d974b.css",
-    "main.js": "/portfolio/static/js/main.6ed6b489.js",
+    "main.js": "/portfolio/static/js/main.bda6202e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bgc-website.gif": "/portfolio/static/media/bgc-website.e0289b3e3c82d005e81c.gif",
     "static/media/bgc-resp.gif": "/portfolio/static/media/bgc-resp.a68a5bf2d83784d7c569.gif",
@@ -15,7 +15,9 @@
     "static/media/interface.png": "/portfolio/static/media/interface.71034b3df63d322afde2.png",
     "static/media/bgc-menu2.png": "/portfolio/static/media/bgc-menu2.e432b7fc7be21b6cec4f.png",
     "static/media/bgc-menu1.png": "/portfolio/static/media/bgc-menu1.a402f4ec9da29c79bac1.png",
+    "static/media/syntax.gif": "/portfolio/static/media/syntax.89ad524e1cbf32161e90.gif",
     "static/media/lofi-ipad.png": "/portfolio/static/media/lofi-ipad.a59bb6e85539c4d671d9.png",
+    "static/media/syntax-mockup-side.png": "/portfolio/static/media/syntax-mockup-side.ba88910d73f41cf8b1ca.png",
     "static/media/p3.jpg": "/portfolio/static/media/p3.50bcc147144a0090ace6.jpg",
     "static/media/lofi-iphone.png": "/portfolio/static/media/lofi-iphone.e64195801bcb36854d5f.png",
     "static/media/redesign-mockup.png": "/portfolio/static/media/redesign-mockup.9b2712fb25d2b9cd5556.png",
@@ -24,6 +26,7 @@
     "static/media/empathy-map-1.jpg": "/portfolio/static/media/empathy-map-1.19680c29a3db4541c055.jpg",
     "static/media/p6.jpg": "/portfolio/static/media/p6.26eb267f1dddfe6d36ed.jpg",
     "static/media/jamz-mockup.png": "/portfolio/static/media/jamz-mockup.fcd14c62c4a528fe382e.png",
+    "static/media/syntax-mockup.png": "/portfolio/static/media/syntax-mockup.6efcad6824389a6233f3.png",
     "static/media/speech-me-mockup.png": "/portfolio/static/media/speech-me-mockup.b5f594bc8bf865eb4c43.png",
     "static/media/p1.jpg": "/portfolio/static/media/p1.d4d8beb8dd1dcf220e05.jpg",
     "static/media/p9.jpg": "/portfolio/static/media/p9.1b50e667cd806e7a16ba.jpg",
@@ -56,11 +59,11 @@
     "static/media/summertime.png": "/portfolio/static/media/summertime.659e3c0f5138b5f7e65d.png",
     "index.html": "/portfolio/index.html",
     "main.5d4d974b.css.map": "/portfolio/static/css/main.5d4d974b.css.map",
-    "main.6ed6b489.js.map": "/portfolio/static/js/main.6ed6b489.js.map",
+    "main.bda6202e.js.map": "/portfolio/static/js/main.bda6202e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d4d974b.css",
-    "static/js/main.6ed6b489.js"
+    "static/js/main.bda6202e.js"
   ]
 }
