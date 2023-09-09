@@ -12,7 +12,7 @@ function Syntax() {
                 <img
                     alt="project-img"
                     className="p-7 inset-0 w-full h-full object-scale-down object-center"
-                    src={require("../assets/syntax/syntax-mockup-side.png")}
+                    src={require("../../assets/syntax/syntax-mockup-side.png")}
                     />
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
@@ -81,7 +81,7 @@ function Syntax() {
                 <div className="container justify-center">
                     <h2 className="section-title">Final Product &#128173;</h2>
                     <div className="flex justify-center">
-                        <img className="mb-5 mx-4 shadow-xl" src={require("../assets/syntax/syntax.gif")} alt="final website gif"/>
+                        <img className="mb-5 mx-4 shadow-xl" src={require("../../assets/syntax/syntax.gif")} alt="final website gif"/>
                     </div>
                     <div className="flex justify-center">
                         <a className="btn mt-10" href="https://syntax-front.vercel.app/" target="_blank">Take Me to the Page! &#10145;&#65039;</a>

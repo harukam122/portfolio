@@ -21,7 +21,7 @@ function Hello() {
                 <img
                     alt="project-img"
                     className="p-7 inset-0 w-full h-full object-scale-down object-center"
-                    src={require("../assets/hello/hello-mockup.png")}
+                    src={require("../../assets/hello/hello-mockup.png")}
                     />
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
@@ -81,25 +81,25 @@ function Hello() {
                             onSwiper={(swiper) => console.log(swiper)}
                             className="w-5/6 flex drop-shadow-lg">
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/wireframes/wireframe-1.png")} alt="wireframe 1"/>
+                                <img className="border" src={require("../../assets/hello/wireframes/wireframe-1.png")} alt="wireframe 1"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/wireframes/wireframe-2.png")} alt="wireframe 2"/>
+                                <img className="border" src={require("../../assets/hello/wireframes/wireframe-2.png")} alt="wireframe 2"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/wireframes/wireframe-3.png")} alt="wireframe 3"/>
+                                <img className="border" src={require("../../assets/hello/wireframes/wireframe-3.png")} alt="wireframe 3"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/wireframes/wireframe-4.png")} alt="wireframe 4"/>
+                                <img className="border" src={require("../../assets/hello/wireframes/wireframe-4.png")} alt="wireframe 4"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/wireframes/wireframe-5.png")} alt="wireframe 5"/>
+                                <img className="border" src={require("../../assets/hello/wireframes/wireframe-5.png")} alt="wireframe 5"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/wireframes/wireframe-6.png")} alt="wireframe 6"/>
+                                <img className="border" src={require("../../assets/hello/wireframes/wireframe-6.png")} alt="wireframe 6"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/wireframes/wireframe-7.png")} alt="wireframe 7"/>
+                                <img className="border" src={require("../../assets/hello/wireframes/wireframe-7.png")} alt="wireframe 7"/>
                             </SwiperSlide>
                         </Swiper>
                     </div>
@@ -134,25 +134,25 @@ function Hello() {
                             onSwiper={(swiper) => console.log(swiper)}
                             className="w-5/6 flex drop-shadow-lg">
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/mockups-before/before-1.png")} alt="mockup 1"/>
+                                <img className="border" src={require("../../assets/hello/mockups-before/before-1.png")} alt="mockup 1"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/mockups-before/before-2.png")} alt="mockup 2"/>
+                                <img className="border" src={require("../../assets/hello/mockups-before/before-2.png")} alt="mockup 2"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/mockups-before/before-3.png")} alt="mockup 3"/>
+                                <img className="border" src={require("../../assets/hello/mockups-before/before-3.png")} alt="mockup 3"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/mockups-before/before-4.png")} alt="mockup 4"/>
+                                <img className="border" src={require("../../assets/hello/mockups-before/before-4.png")} alt="mockup 4"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/mockups-before/before-5.png")} alt="mockup 5"/>
+                                <img className="border" src={require("../../assets/hello/mockups-before/before-5.png")} alt="mockup 5"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/mockups-before/before-6.png")} alt="mockup 6"/>
+                                <img className="border" src={require("../../assets/hello/mockups-before/before-6.png")} alt="mockup 6"/>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img className="border" src={require("../assets/hello/mockups-before/before-7.png")} alt="mockup 7"/>
+                                <img className="border" src={require("../../assets/hello/mockups-before/before-7.png")} alt="mockup 7"/>
                             </SwiperSlide>
                         </Swiper>
 

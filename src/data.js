@@ -9,15 +9,6 @@ export const projects = [
     link: "/syntax",
   },
   {
-    title: "Jamz Findz",
-    subtitle: "React, HTML, CSS",
-    tags: ['React', 'HTML', 'CSS', 'Frontend'],
-    description:
-      "Designing and Developing a website to browse Spotify's newest releases",
-    image: "jamz/jamz-mockup.png",
-    link: "/jamz-findz",
-  },
-  {
     title: "Shell",
     subtitle: "C",
     tags: ['Systems', 'Linux', 'C'],
@@ -27,13 +18,22 @@ export const projects = [
     link: "/shell",
   },
   {
-      title: "Personas & Storyboard",
-      subtitle: "UX Research",
-      tags: ['UX research', 'Design Process'],
-      description:
-        "UX research project on the users of Coca Cola drink dispenser at Brown",
-      image: "personas/personas.png",
-      link: "/personas",
+    title: "Ghiblify",
+    subtitle: "Pytorch, Python",
+    tags: ['Deep Learning', 'Pytorch', 'VGG19'],
+    description:
+      "A style transfer model that applies the style of a Studio Ghibli movie to any image.",
+    image: "ghiblify/ghiblify.png",
+    link: "/ghiblify",
+  },
+  {
+    title: "Jamz Findz",
+    subtitle: "React, HTML, CSS",
+    tags: ['React', 'HTML', 'CSS', 'Frontend'],
+    description:
+      "Designing and Developing a website to browse Spotify's newest releases",
+    image: "jamz/jamz-mockup.png",
+    link: "/jamz-findz",
   },
   {
     title: "Responsive Redesign",
@@ -52,6 +52,15 @@ export const projects = [
         "Iterative design project for Hello, a startup search engine for developers.",
       image: "hello/hello-mockup.png",
       link: "/hello",
+  },
+  {
+    title: "Personas & Storyboard",
+    subtitle: "UX Research",
+    tags: ['UX research', 'Design Process'],
+    description:
+      "UX research project on the users of Coca Cola drink dispenser at Brown",
+    image: "personas/personas.png",
+    link: "/personas",
   },
   {
       title: "SpeechMe",

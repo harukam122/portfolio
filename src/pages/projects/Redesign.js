@@ -21,7 +21,7 @@ function Redesign() {
                 <img
                     alt="project-img"
                     className="p-7 inset-0 w-full h-full object-scale-down object-center"
-                    src={require("../assets/redesign/redesign-mockup.png")}
+                    src={require("../../assets/redesign/redesign-mockup.png")}
                     />
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
@@ -43,7 +43,7 @@ function Redesign() {
                 <div className="container">
                     <h2 className="section-title">Original Page &#128187;</h2>
                     <br/>
-                    <img id="webpage-img" className="mb-5 mx-4" src={require("../assets/redesign/bgc-website.gif")} alt="bagel gourmet café menu gif"/>
+                    <img id="webpage-img" className="mb-5 mx-4" src={require("../../assets/redesign/bgc-website.gif")} alt="bagel gourmet café menu gif"/>
                     <div className="d-inline-block mx-5 mb-8">
                         <h4 className="subtitle">&#129300; Why?</h4>
                         <p>I chose Bagel Gourmet Café's website and its Menu page to redesign, because the design is barely responsive 
@@ -61,7 +61,7 @@ function Redesign() {
                     <h2 className="section-title">Key Issues &#128477;&#65039;</h2>
                     <div className="d-inline-block mx-5">
                         <h4 className="subtitle">&#128077; Responsiveness</h4>
-                        <img id="webpage-img" className="items-center m-4" src={require("../assets/redesign/bgc-resp.gif")} alt="bagel gourmet café responsiveness gif"/>
+                        <img id="webpage-img" className="items-center m-4" src={require("../../assets/redesign/bgc-resp.gif")} alt="bagel gourmet café responsiveness gif"/>
                         <ul className="list">
                             <li className="mb-1">When the screen shrinks, the page simply gets cut off horizontally, so you have to manually scroll to the end. On smaller devices, the page display simply shrinks, making the lettering too small to read</li>
                         </ul>
@@ -127,13 +127,13 @@ function Redesign() {
                         onSwiper={(swiper) => console.log(swiper)}
                         className="w-full h-full">
                         <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/lofi-laptop.png")} alt="laptop lofi prototype"/>
+                            <img className="items-center drop-shadow-xl" src={require("../../assets/redesign/lofi-laptop.png")} alt="laptop lofi prototype"/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/lofi-ipad.png")} alt="ipad lofi prototype"/>
+                            <img className="items-center drop-shadow-xl" src={require("../../assets/redesign/lofi-ipad.png")} alt="ipad lofi prototype"/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/lofi-iphone.png")} alt="iphone lofi prototype"/>
+                            <img className="items-center drop-shadow-xl" src={require("../../assets/redesign/lofi-iphone.png")} alt="iphone lofi prototype"/>
                         </SwiperSlide>
                     </Swiper>
                 </div>
@@ -145,7 +145,7 @@ function Redesign() {
                     <h4>Next, I moved onto my hi-fi prototypes! <br/> Below are my UI style guide and my hi-fi for laptop, iPad, and iPhone.</h4>
                     <h4 className="subtitle">Style Guide</h4>
                     <div className='flex justify-center'>
-                        <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../assets/redesign/style-guide.png")} alt="ui style guide"/>
+                        <img className="items-center w-1/2 my-5 drop-shadow-xl" src={require("../../assets/redesign/style-guide.png")} alt="ui style guide"/>
                     </div>
                     <h4 className="subtitle">Prototypes</h4>
                     <Swiper
@@ -161,13 +161,13 @@ function Redesign() {
                         scrollbar={{ draggable: true }}
                         className="w-full h-full">
                         <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-laptop.png")} alt="laptop hifi prototype"/>
+                            <img className="items-center drop-shadow-xl" src={require("../../assets/redesign/hifi-laptop.png")} alt="laptop hifi prototype"/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-ipad.png")} alt="ipad hifi prototype"/>
+                            <img className="items-center drop-shadow-xl" src={require("../../assets/redesign/hifi-ipad.png")} alt="ipad hifi prototype"/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img className="items-center drop-shadow-xl" src={require("../assets/redesign/hifi-iphone.png")} alt="iphone hifi prototype"/>
+                            <img className="items-center drop-shadow-xl" src={require("../../assets/redesign/hifi-iphone.png")} alt="iphone hifi prototype"/>
                         </SwiperSlide>
                     </Swiper>
                 </div>
@@ -178,7 +178,7 @@ function Redesign() {
                     <h2 className="section-title">Final Product &#128173;</h2>
                     <br/>
                     <div className="flex justify-center">
-                        <img className="mb-5 mx-4" src={require("../assets/redesign/final-product.gif")} alt="final redesigned website gif"/>
+                        <img className="mb-5 mx-4" src={require("../../assets/redesign/final-product.gif")} alt="final redesigned website gif"/>
                     </div>
                     <div className="flex justify-center">
                         <a className="btn w-52 mt-10" href="https://happyquokka123.github.io/bagel-gourmet-redesign/" target="_blank">Take Me to the New & Improved Page! &#10145;&#65039;</a>
