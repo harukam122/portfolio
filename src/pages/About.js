@@ -11,15 +11,15 @@ export default function About() {
     return (
         <section>
             <div className="min-h-[90vh] body-text text-xl bg-white mx-auto flex px-16 sm:px-32 py-20 md:flex-row flex-col items-center">
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div className="lg:max-w-sm lg:w-full md:w-1/2 w-2/3 lg:mr-32 md:mr-16 mb-8">
                     <img
-                        className="object-cover object-center"
-                        alt="memoji"
-                        src={require("../assets/memoji.png")}
+                        className="rounded-full object-cover object-center"
+                        alt="profile"
+                        src={require("../assets/profile.jpg")}
                     />
                 </div>
-                <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start items-center text-left mb-16 md:mb-0">
-                    <h1 className="text-slate-800 mb-4 text-2xl md:text-4xl font-semibold align-top">
+                <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start items-center text-left mb-16 md:mb-0">
+                    <h1 className="text-gray-700 mb-4 text-2xl md:text-4xl font-semibold align-top">
                         Hey there, I'm Haruka! 👋🏻
                     </h1>
                     <p className="mb-8">

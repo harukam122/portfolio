@@ -12,7 +12,7 @@ function Personas() {
                 <img
                     alt="project-img"
                     className="p-7 inset-0 w-full h-full object-scale-down object-center"
-                    src={require("../assets/personas/personas.png")}
+                    src={require("../../assets/personas/personas.png")}
                     />
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
@@ -37,7 +37,7 @@ function Personas() {
                     <h2 className="section-title">Interface Sketch &#127800;</h2>
                     <h4 className="subtitle">Coca Cola Drink Dispenser</h4>
                     <div className='flex justify-center'>
-                        <img id="webpage-img" className="mb-5 mx-4 max-h-[50vh]" src={require("../assets/personas/interface.png")} alt="drink dispenser img"/>
+                        <img id="webpage-img" className="mb-5 mx-4 max-h-[50vh]" src={require("../../assets/personas/interface.png")} alt="drink dispenser img"/>
                     </div>
                 </div>
 
@@ -82,7 +82,7 @@ function Personas() {
                     <div className="flex flex-row flex-wrap gap-y-20 justify-between">
                         <div className="md:w-[45%] w-full">
                             <div className="flex justify-center">
-                                <img className="rounded-full w-48 h-48 mb-3 border-[6px] border-sky-100" src={require("../assets/personas/user-1.jpg")} alt="persona icon"/>
+                                <img className="rounded-full w-48 h-48 mb-3 border-[6px] border-sky-100" src={require("../../assets/personas/user-1.jpg")} alt="persona icon"/>
                             </div>                            
                             <h5 className="subtitle">Sofia Randi</h5>
                             <div className="inline-block">
@@ -96,11 +96,11 @@ function Personas() {
                                 </p>
                             </div>
                             <h5 className="subtitle">Sofia's Empathy Map</h5>
-                            <img className="empathy-map" src={require("../assets/personas/empathy-map-1.jpg")} alt="empathy map (persona 1)"/>
+                            <img className="empathy-map" src={require("../../assets/personas/empathy-map-1.jpg")} alt="empathy map (persona 1)"/>
                         </div>
                         <div className="md:w-[45%] w-full">
                             <div className="flex justify-center">
-                                <img className="rounded-full w-48 h-48 mb-3 border-[6px] border-sky-100" src={require("../assets/personas/user-2.jpg")} alt="persona icon"/>
+                                <img className="rounded-full w-48 h-48 mb-3 border-[6px] border-sky-100" src={require("../../assets/personas/user-2.jpg")} alt="persona icon"/>
                             </div>
                             <h5 className="subtitle">Parker Koche</h5>
                             <div className="inline-block">
@@ -114,7 +114,7 @@ function Personas() {
                                 </p>
                             </div>
                             <h5 className="subtitle">Parker's Empathy Map</h5>
-                            <img className="empathy-map" src={require("../assets/personas/empathy-map-2.jpg")} alt="empathy map (persona 2)"/>
+                            <img className="empathy-map" src={require("../../assets/personas/empathy-map-2.jpg")} alt="empathy map (persona 2)"/>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ function Personas() {
                     <h2 className="section-title">Storyboard &#128173;</h2>
                     <h4>Lastly, below is a storyboard portraying what Parker's usage of the Coca Cola drink dispenser might look like.</h4>
                     <div className='flex justify-center'>
-                        <img className="w-full" src={require("../assets/personas/storyboard.png")} alt="storyboard drawing"/>
+                        <img className="w-full" src={require("../../assets/personas/storyboard.png")} alt="storyboard drawing"/>
                     </div>
                 </div>
 

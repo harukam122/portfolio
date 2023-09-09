@@ -12,7 +12,7 @@ function SpeechMe() {
                 <img
                     alt="project-img"
                     className="p-7 inset-0 w-full h-full object-scale-down object-center"
-                    src={require("../assets/speech-me/speech-me-mockup.png")}
+                    src={require("../../assets/speech-me/speech-me-mockup.png")}
                     />
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
@@ -89,7 +89,7 @@ function SpeechMe() {
                 <div className="container justify-center">
                     <h2 className="section-title">Final Product &#128173;</h2>
                     <div className="flex justify-center">
-                        <img className="mb-5 mx-4 shadow-xl" src={require("../assets/jamz/jamz-final.gif")} alt="final website gif"/>
+                        <img className="mb-5 mx-4 shadow-xl" src={require("../../assets/jamz/jamz-final.gif")} alt="final website gif"/>
                     </div>
                     <div className="flex justify-center">
                         <a className="btn mt-10" href="https://happyquokka123.github.io/jamz-findz/" target="_blank">Take Me to the Page! &#10145;&#65039;</a>
