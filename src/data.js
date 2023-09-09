@@ -18,6 +18,15 @@ export const projects = [
     link: "/jamz-findz",
   },
   {
+    title: "Shell",
+    subtitle: "C",
+    tags: ['Systems', 'Linux', 'C'],
+    description:
+      "A mock Linux shell that handles common terminal commands and job / signal handling.",
+    image: "shell/shell.png",
+    link: "/shell",
+  },
+  {
       title: "Personas & Storyboard",
       subtitle: "UX Research",
       tags: ['UX research', 'Design Process'],
@@ -47,7 +56,7 @@ export const projects = [
   {
       title: "SpeechMe",
       subtitle: "Swift, Python",
-      tags: ['Figma', 'Mobile Dev'],
+      tags: ['Swift', 'Frontend', 'Mobile Dev'],
       description:
         "A mobile app to practice speech, built for those with speech impediments.",
       image: "speech-me/speech-me-mockup.png",

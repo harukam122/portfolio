@@ -12,7 +12,7 @@ function SpeechMe() {
                 <img
                     alt="project-img"
                     className="p-7 inset-0 w-full h-full object-scale-down object-center"
-                    src={require("../assets/jamz/jamz-mockup.png")}
+                    src={require("../assets/speech-me/speech-me-mockup.png")}
                     />
             </div>
             <div className="sm:max-w-[55%] max-w-[80%] flex flex-col justify-center items-center mx-auto mt-14 mb-10">
