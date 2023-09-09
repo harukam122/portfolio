@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5d4d974b.css",
-    "main.js": "/portfolio/static/js/main.4083d8ee.js",
+    "main.css": "/portfolio/static/css/main.19acce86.css",
+    "main.js": "/portfolio/static/js/main.38b40a44.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bgc-website.gif": "/portfolio/static/media/bgc-website.e0289b3e3c82d005e81c.gif",
     "static/media/bgc-resp.gif": "/portfolio/static/media/bgc-resp.a68a5bf2d83784d7c569.gif",
@@ -15,11 +15,13 @@
     "static/media/interface.png": "/portfolio/static/media/interface.71034b3df63d322afde2.png",
     "static/media/bgc-menu2.png": "/portfolio/static/media/bgc-menu2.e432b7fc7be21b6cec4f.png",
     "static/media/bgc-menu1.png": "/portfolio/static/media/bgc-menu1.a402f4ec9da29c79bac1.png",
+    "static/media/ghiblify-poster.pdf": "/portfolio/static/media/ghiblify-poster.a4c900b52d7b057e2232.pdf",
     "static/media/syntax.gif": "/portfolio/static/media/syntax.89ad524e1cbf32161e90.gif",
     "static/media/lofi-ipad.png": "/portfolio/static/media/lofi-ipad.a59bb6e85539c4d671d9.png",
     "static/media/syntax-mockup-side.png": "/portfolio/static/media/syntax-mockup-side.ba88910d73f41cf8b1ca.png",
     "static/media/p3.jpg": "/portfolio/static/media/p3.50bcc147144a0090ace6.jpg",
     "static/media/lofi-iphone.png": "/portfolio/static/media/lofi-iphone.e64195801bcb36854d5f.png",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.396b83f8f15be183228c.jpg",
     "static/media/redesign-mockup.png": "/portfolio/static/media/redesign-mockup.9b2712fb25d2b9cd5556.png",
     "static/media/lofi-laptop.png": "/portfolio/static/media/lofi-laptop.61fb443e05d4a4074bb2.png",
     "static/media/empathy-map-2.jpg": "/portfolio/static/media/empathy-map-2.dfa1976c3e4e78896730.jpg",
@@ -34,6 +36,7 @@
     "static/media/style-guide.png": "/portfolio/static/media/style-guide.e87750691ba3303e0af0.png",
     "static/media/p10.jpg": "/portfolio/static/media/p10.6ee7ef837e81b4ec81cf.jpg",
     "static/media/p5.jpg": "/portfolio/static/media/p5.a656f336e79fb05eb198.jpg",
+    "static/media/shell.png": "/portfolio/static/media/shell.061403ce3f61890a60b4.png",
     "static/media/p7.jpg": "/portfolio/static/media/p7.cc4aa6fc0cbe0ed5d94d.jpg",
     "static/media/before-4.png": "/portfolio/static/media/before-4.446d81d0f9390064bc48.png",
     "static/media/p4.jpg": "/portfolio/static/media/p4.8727f1e882e9d9cbf50d.jpg",
@@ -43,6 +46,7 @@
     "static/media/wireframe-4.png": "/portfolio/static/media/wireframe-4.1c30ab9f56cb1271d3dd.png",
     "static/media/user-2.jpg": "/portfolio/static/media/user-2.7060ae4ddb764813231e.jpg",
     "static/media/memoji.png": "/portfolio/static/media/memoji.e7445a0e930e89ae1ca5.png",
+    "static/media/ghiblify.png": "/portfolio/static/media/ghiblify.ed780d1bddfee3bb98b9.png",
     "static/media/personas.png": "/portfolio/static/media/personas.d512ff9abe8dd6ed2e74.png",
     "static/media/before-7.png": "/portfolio/static/media/before-7.83708b38f399ac892d6c.png",
     "static/media/p2.jpg": "/portfolio/static/media/p2.9de1055d898b5635f015.jpg",
@@ -58,12 +62,12 @@
     "static/media/wireframe-3.png": "/portfolio/static/media/wireframe-3.2ed9989be49c3568cb4d.png",
     "static/media/summertime.png": "/portfolio/static/media/summertime.659e3c0f5138b5f7e65d.png",
     "index.html": "/portfolio/index.html",
-    "main.5d4d974b.css.map": "/portfolio/static/css/main.5d4d974b.css.map",
-    "main.4083d8ee.js.map": "/portfolio/static/js/main.4083d8ee.js.map",
+    "main.19acce86.css.map": "/portfolio/static/css/main.19acce86.css.map",
+    "main.38b40a44.js.map": "/portfolio/static/js/main.38b40a44.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d4d974b.css",
-    "static/js/main.4083d8ee.js"
+    "static/css/main.19acce86.css",
+    "static/js/main.38b40a44.js"
   ]
 }
