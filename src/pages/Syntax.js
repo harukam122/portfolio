@@ -51,6 +51,18 @@ function Syntax() {
                 <hr className="hr"/>
 
                 <div className="container">
+                    <h2 className="section-title">Architecture &#128221;</h2>
+                    <h4 className="mb-2">We used the following architecture to build Syntax:</h4>
+                    <ol className='list list-decimal'>
+                        <li className="mb-2"><b>Backend: </b>the backend communicates with the ChatGPT API, Firebase/Firestore, and the frontend.
+                        It also performs the graph creation and the random walk algorithm we've developed to select the next code snippet.</li>
+                        <li><b>Frontend: </b>the frontend is in communication with the backend API and Firestore (for user authentication).</li>
+                    </ol>
+                </div>
+
+                <hr className="hr"/>
+
+                <div className="container">
                     <h2 className="section-title">Usability Principles Considered &#128477;&#65039;</h2>
                     <div className="mx-5">
                         <h4 className="subtitle">&#128170;&#127995; User Control</h4>
@@ -62,18 +74,6 @@ function Syntax() {
                             We aimed for a very minimalistic, yet aesthetically pleasing design, thereby removing any distractions especially when speed-typing.
                         </p>
                     </div>
-                </div>
-
-                <hr className="hr"/>
-
-                <div className="container">
-                    <h2 className="section-title">Architecture &#128221;</h2>
-                    <h4 className="mb-2">We used the following archtecture to build Syntax:</h4>
-                    <ol className='list list-decimal'>
-                        <li className="mb-2"><b>Backend: </b>the backend communicates with the ChatGPT API, Firebase/Firestore, and the frontend.
-                        It also performs the graph creation and the random walk algorithm we've developed to select the next code snippet.</li>
-                        <li><b>Frontend: </b>the frontend is in communication with the backend API and Firestore (for user authentication).</li>
-                    </ol>
                 </div>
 
                 <hr className="hr"/>
