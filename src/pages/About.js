@@ -25,13 +25,17 @@ export default function About() {
                     <p className="mb-8">
                         I'm an aspiring software engineer, passionate about bridging the gap between 
                         engineering and creativity to bring user-centered solutions to the table!
+                        <br/><br/>
+                        This past summer, I worked as a full-stack Software Engineer Intern at 
+                        {" "}<a className="underline decoration-2 decoration-indigo-300" href="https://sonyinteractive.com/en/">Sony Interactive Entertainment (PlayStation)</a>{" "}
+                        to prototype a new feature for the PS5 software.
                     </p>
                     <p className="mb-8">
                         In my free time, I like to...
                         <ul>
                             <li>🎨 create digital food art</li>
                             <li>🍡 try new restaurants and eat lots of Japanese sweets</li>
-                            <li>🏞 explore nature & go hiking and white-water rafting</li>
+                            <li>🏞 explore nature & go trekking up various mountains</li>
                         </ul>
                         <br/>
                         Check out some of my artworks below! ⬇️
