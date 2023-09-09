@@ -10,7 +10,7 @@ function Home() {
 
   return (
     <div className="App bg-white min-h-screen">
-    <main className="body-text">
+    <main className="body-text  selection:bg-indigo-100">
       <Intro />
       <Projects />
     </main>

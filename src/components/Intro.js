@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Intro() {
   return (
     <section className="flex justify-center mx-auto">
-        <div className="bg-white flex sm:max-w-[80%] max-w-[80%] py-20 md:flex-row flex-col md:justify-between items-center min-h-[90vh]">
+        <div className="bg-white flex sm:max-w-[80%] max-w-[80%] md:py-20 md:flex-row flex-col-reverse md:justify-between items-center min-h-[90vh]">
             <div className="lg:flex-grow md:w-1/2 lg:pr-36 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <h1 className="text-gray-700 mb-4 text-4xl md:text-5xl lg:text-6xl font-bold">
                     Hi, I'm Haruka! 👋🏻
@@ -26,7 +26,9 @@ export default function Intro() {
                 <p className="mb-8 text-gray-500 text-base md:text-xl leading-loose">
                     I'm a junior at Brown University studying Computer Science.
                     <br/>
-                    My interests lie at the intersection of technology and design, and I'm passionate about creating user-centered solutions using tech!
+                    My interests lie at the{" "}
+                    <span className="underline decoration-2 decoration-indigo-300">intersection of technology and design</span>
+                    , and I'm passionate about creating user-centered solutions using tech!
                     <br/>
                     <br/>
                     Scroll down &#11015;&#65039; to see some of my projects :)
