@@ -6,7 +6,7 @@ export default function Intro() {
     <section className="flex justify-center mx-auto">
         <div className="bg-white flex sm:max-w-[80%] max-w-[80%] md:py-20 md:flex-row flex-col-reverse md:justify-between items-center min-h-[90vh]">
             <div className="lg:flex-grow md:w-1/2 lg:pr-36 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <h1 className="text-gray-700 mb-4 text-4xl md:text-5xl lg:text-6xl font-bold">
+                <h1 className="text-gray-600 mb-4 text-4xl md:text-5xl lg:text-6xl font-bold">
                     Hi, I'm Haruka! 👋🏻
                 </h1>
                 <TypeAnimation
@@ -21,7 +21,7 @@ export default function Intro() {
                     wrapper="div"
                     cursor={false}
                     repeat={Infinity}
-                    className="text-gray-700 mb-4 text-3xl md:text-4xl lg:text-5xl font-bold"
+                    className="text-gray-600 mb-4 text-3xl md:text-4xl lg:text-5xl font-bold"
                 />
                 <p className="mb-8 text-gray-500 text-base md:text-xl leading-loose">
                     I'm a junior at Brown University studying Computer Science.

@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Home, About, NoPage, Redesign, JamzFindz, Personas, Hello, SpeechMe, Syntax, Shell, Ghiblify } from "./pages/pages";
+import { Home, About, Experience, NoPage, Redesign, JamzFindz, Personas, Hello, SpeechMe, Syntax, Shell, Ghiblify } from "./pages/pages";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -27,6 +27,7 @@ function App() {
           <Route path="/shell" element={<Shell scrollToTop={scrollToTop} />} />
           <Route path="/ghiblify" element={<Ghiblify scrollToTop={scrollToTop} />} />
           <Route path="/about" element={<About scrollToTop={scrollToTop} />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="*" element={<NoPage />} />
       </Routes>
       <Footer/>

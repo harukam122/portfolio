@@ -19,7 +19,7 @@ export default function About() {
                     />
                 </div>
                 <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start items-center text-left mb-16 md:mb-0">
-                    <h1 className="text-gray-700 mb-4 text-2xl md:text-4xl font-semibold align-top">
+                    <h1 className="text-gray-600 mb-4 text-2xl md:text-4xl font-semibold align-top">
                         Hey there, I'm Haruka! 👋🏻
                     </h1>
                     <p className="mb-8">
