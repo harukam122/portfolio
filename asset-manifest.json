@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8a30879c.css",
-    "main.js": "/portfolio/static/js/main.317a1bbf.js",
+    "main.js": "/portfolio/static/js/main.6f8a32f7.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bgc-website.gif": "/portfolio/static/media/bgc-website.e0289b3e3c82d005e81c.gif",
     "static/media/bgc-resp.gif": "/portfolio/static/media/bgc-resp.a68a5bf2d83784d7c569.gif",
@@ -29,11 +29,11 @@
     "static/media/p6.jpg": "/portfolio/static/media/p6.26eb267f1dddfe6d36ed.jpg",
     "static/media/jamz-mockup.png": "/portfolio/static/media/jamz-mockup.fcd14c62c4a528fe382e.png",
     "static/media/syntax-mockup.png": "/portfolio/static/media/syntax-mockup.6efcad6824389a6233f3.png",
-    "static/media/speech-me-mockup.png": "/portfolio/static/media/speech-me-mockup.b5f594bc8bf865eb4c43.png",
     "static/media/p1.jpg": "/portfolio/static/media/p1.d4d8beb8dd1dcf220e05.jpg",
     "static/media/p9.jpg": "/portfolio/static/media/p9.1b50e667cd806e7a16ba.jpg",
     "static/media/p8.jpg": "/portfolio/static/media/p8.0e7e08aa4dbb4db13a70.jpg",
     "static/media/style-guide.png": "/portfolio/static/media/style-guide.e87750691ba3303e0af0.png",
+    "static/media/speech-me-mockup.png": "/portfolio/static/media/speech-me-mockup.f3964a6a22bf5a812089.png",
     "static/media/p10.jpg": "/portfolio/static/media/p10.6ee7ef837e81b4ec81cf.jpg",
     "static/media/p5.jpg": "/portfolio/static/media/p5.a656f336e79fb05eb198.jpg",
     "static/media/shell.png": "/portfolio/static/media/shell.061403ce3f61890a60b4.png",
@@ -41,6 +41,7 @@
     "static/media/before-4.png": "/portfolio/static/media/before-4.446d81d0f9390064bc48.png",
     "static/media/p4.jpg": "/portfolio/static/media/p4.8727f1e882e9d9cbf50d.jpg",
     "static/media/before-6.png": "/portfolio/static/media/before-6.3ac4cc672ee87b0e4b9a.png",
+    "static/media/ip.png": "/portfolio/static/media/ip.fe101f471e21bd43e1da.png",
     "static/media/user-1.jpg": "/portfolio/static/media/user-1.0ed2cdc15e51f0b7524b.jpg",
     "static/media/before-5.png": "/portfolio/static/media/before-5.2bd5c9a453449e8b5e1a.png",
     "static/media/wireframe-4.png": "/portfolio/static/media/wireframe-4.1c30ab9f56cb1271d3dd.png",
@@ -67,11 +68,11 @@
     "static/media/nikkei.jpg": "/portfolio/static/media/nikkei.684340ebbd90fc1d1b84.jpg",
     "index.html": "/portfolio/index.html",
     "main.8a30879c.css.map": "/portfolio/static/css/main.8a30879c.css.map",
-    "main.317a1bbf.js.map": "/portfolio/static/js/main.317a1bbf.js.map",
+    "main.6f8a32f7.js.map": "/portfolio/static/js/main.6f8a32f7.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a30879c.css",
-    "static/js/main.317a1bbf.js"
+    "static/js/main.6f8a32f7.js"
   ]
 }
