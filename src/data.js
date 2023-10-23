@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "IP",
+    subtitle: "Go",
+    tags: ['Computer Networks', 'Go', 'Docker'],
+    description:
+      "An RFC-compliant virtual Internet Protocol (IP) network with packet forwarding and dynamic routing.",
+    image: "ip/ip.png",
+    link: "/ip",
+  },
+  {
     title: "Syntax",
     subtitle: "React, Chakra UI, TypeScript, Java",
     tags: ['React', 'Chakra UI', 'Frontend', 'Backend'],

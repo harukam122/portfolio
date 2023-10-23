@@ -10,5 +10,6 @@ import SpeechMe from './projects/SpeechMe';
 import Syntax from './projects/Syntax';
 import Shell from "./projects/Shell";
 import Ghiblify from "./projects/Ghiblify";
+import IP from "./projects/IP";
 
-export { Home, About, Experience, NoPage, Redesign, JamzFindz, Personas, Hello, SpeechMe, Syntax, Shell, Ghiblify }
+export { Home, About, Experience, NoPage, Redesign, JamzFindz, Personas, Hello, SpeechMe, Syntax, Shell, Ghiblify, IP }
