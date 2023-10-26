@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8a30879c.css",
-    "main.js": "/portfolio/static/js/main.6f8a32f7.js",
+    "main.css": "/portfolio/static/css/main.e0186c89.css",
+    "main.js": "/portfolio/static/js/main.3430ed03.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bgc-website.gif": "/portfolio/static/media/bgc-website.e0289b3e3c82d005e81c.gif",
     "static/media/bgc-resp.gif": "/portfolio/static/media/bgc-resp.a68a5bf2d83784d7c569.gif",
@@ -67,12 +67,12 @@
     "static/media/zoan.jpg": "/portfolio/static/media/zoan.b83162073dee7e2a1a2b.jpg",
     "static/media/nikkei.jpg": "/portfolio/static/media/nikkei.684340ebbd90fc1d1b84.jpg",
     "index.html": "/portfolio/index.html",
-    "main.8a30879c.css.map": "/portfolio/static/css/main.8a30879c.css.map",
-    "main.6f8a32f7.js.map": "/portfolio/static/js/main.6f8a32f7.js.map",
+    "main.e0186c89.css.map": "/portfolio/static/css/main.e0186c89.css.map",
+    "main.3430ed03.js.map": "/portfolio/static/js/main.3430ed03.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a30879c.css",
-    "static/js/main.6f8a32f7.js"
+    "static/css/main.e0186c89.css",
+    "static/js/main.3430ed03.js"
   ]
 }
