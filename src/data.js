@@ -1,4 +1,4 @@
-export const projects = [
+const devProjects = [
   {
     title: "IP",
     subtitle: "Go",
@@ -45,6 +45,18 @@ export const projects = [
     link: "/jamz-findz",
   },
   {
+      title: "SpeechMe",
+      subtitle: "Swift, Python",
+      tags: ['Swift', 'Frontend', 'Mobile Dev'],
+      description:
+        "A mobile app to practice speech, built for those with speech impediments.",
+      image: "speech-me/speech-me-mockup.png",
+      link: "/speech-me",
+  },
+];
+
+const designProjects = [
+  {
     title: "Responsive Redesign",
     subtitle: "HTML, CSS, and JS",
     tags: ['HTML', 'CSS', 'JS', 'Redesign'],
@@ -71,13 +83,15 @@ export const projects = [
     image: "personas/personas.png",
     link: "/personas",
   },
-  {
-      title: "SpeechMe",
-      subtitle: "Swift, Python",
-      tags: ['Swift', 'Frontend', 'Mobile Dev'],
-      description:
-        "A mobile app to practice speech, built for those with speech impediments.",
-      image: "speech-me/speech-me-mockup.png",
-      link: "/speech-me",
-  },
 ];
+
+export const projectSections = [
+  {
+    "title": "projects/dev",
+    "projects": devProjects,
+  },
+  {
+    "title": "projects/design",
+    "projects": designProjects,
+  },
+]
